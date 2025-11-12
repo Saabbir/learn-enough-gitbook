@@ -11,4 +11,5 @@
   * [Shopify Theme Development](shopify/shopify-theme-development.md)
   * [Shopify](shopify/shopify.md)
   * [Theme App Extension](shopify/theme-app-extension.md)
-* [HTML Email](html-email.md)
+* [HTML Email Development](html-email-development/README.md)
+  * [HTML Email Development 101](html-email-development/html-email.md)
