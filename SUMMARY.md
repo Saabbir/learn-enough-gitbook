@@ -3,6 +3,7 @@
 * [Node.js](README.md)
   * [What is Node.js?](node.js/what-is-node.js.md)
   * [How to Install Node.js on Your Computer](node.js/how-to-install-node.js-on-your-computer.md)
+  * [Node.js vs Browser — Understanding the Two Worlds of JavaScript](node.js/node.js-vs-browser-understanding-the-two-worlds-of-javascript.md)
 * [Shopify](shopify/README.md)
   * [Liquid Templating](shopify/liquid-templating.md)
   * [Shopify App Bridge Library](shopify/shopify-app-bridge-library.md)
