@@ -1,2 +1,2 @@
-# HTML Email Development
+# Shopify Theme Development
 

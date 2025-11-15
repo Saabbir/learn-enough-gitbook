@@ -1,11 +1,8 @@
 # Table of contents
 
-* [HTML Email Development](README.md)
-  * [HTML Email Development 101](html-email-development/html-email.md)
-
 ## Shopify
 
-* [Shopify Theme Development](shopify/shopify-theme-development/README.md)
+* [Shopify Theme Development](README.md)
   * [Mastering Shopify Theme Architecture](shopify/shopify-theme-development/mastering-shopify-theme-architecture.md)
   * [Understanding Shopify Sections & Blocks: The Heart of Modern Theme Architecture](shopify/shopify-theme-development/understanding-shopify-sections-and-blocks-the-heart-of-modern-theme-architecture.md)
   * [The Complete Guide to Shopify’s Liquid Templating Language](shopify/shopify-theme-development/the-complete-guide-to-shopifys-liquid-templating-language.md)
@@ -25,3 +22,7 @@
 * [CommonJS Modules in Node.js (CJS)](node.js/commonjs-modules-in-node.js-cjs.md)
 * [ES Modules in Node.js (ESM)](node.js/es-modules-in-node.js-esm.md)
 * [CommonJS vs ES Modules](node.js/commonjs-vs-es-modules.md)
+
+## HTML Email
+
+* [HTML Email Development 101](html-email/html-email-development-101.md)
