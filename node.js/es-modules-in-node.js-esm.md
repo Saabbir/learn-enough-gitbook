@@ -45,8 +45,7 @@ index.mjs
 math.mjs
 ```
 
-Node treats all `.mjs` files as ES modules.\
-
+Node treats all `.mjs` files as ES modules.
 
 ### Option 2 — package.json type: module
 
@@ -149,8 +148,7 @@ Works automatically:
 import express from 'express';
 ```
 
-Default import receives `module.exports`.\
-
+Default import receives `module.exports`.
 
 ### Importing ESM from CJS
 

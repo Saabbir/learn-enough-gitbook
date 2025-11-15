@@ -56,8 +56,6 @@ Every CommonJS module (every `.js` file) is secretly wrapped by Node.js:
 
 There are two ways to export values:
 
-***
-
 ### **Option A — Export a Whole Object with module.exports**
 
 ```js
@@ -74,8 +72,6 @@ module.exports = {
 
 This is the most reliable way.
 
-***
-
 ### **Option B — Add Properties to exports**
 
 ```js
@@ -86,8 +82,6 @@ exports.subtract = (a, b) => a - b;
 
 > 📘 Both `exports` and `module.exports` point to the same object — until you reassign them.
 
-***
-
 ### ❌ Incorrect: Reassigning exports
 
 ```js
@@ -95,8 +89,6 @@ exports = { add };
 ```
 
 This **does NOT export anything** because `exports` no longer points to `module.exports`.
-
-***
 
 #### ✔ Best Practice (Important!)
 

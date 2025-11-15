@@ -153,8 +153,6 @@ exports = {
 
 This breaks, because now `exports` no longer points to `module.exports`.
 
-***
-
 ### **Golden Rules**
 
 1. `module.exports = ...` → **Always works**
@@ -178,8 +176,6 @@ const module = require('something');
 
 Node.js searches in this exact order:
 
-***
-
 ### **A. Built-in Core Modules**
 
 Examples:
@@ -191,8 +187,6 @@ Examples:
 * `crypto`
 
 If the name matches a core module, Node loads it immediately.
-
-***
 
 ### **B. Your Own Local Modules**
 
@@ -209,8 +203,6 @@ Node looks for:
 * `math.json`
 * `math.node` (C++ addon)
 * index files inside directories (`./math/index.js`)
-
-***
 
 ### **C. Third-party Modules in node\_modules**
 
@@ -250,8 +242,6 @@ import crypto from 'crypto';
 
 These come bundled with Node.js.
 
-***
-
 ### **2. Third-party Modules** (From npm)
 
 Installed with:
@@ -268,8 +258,6 @@ Examples:
 * jest
 * react
 
-***
-
 ### **3. Local Modules** (Your own files)
 
 Examples:
@@ -285,8 +273,6 @@ import utils from './utils.js';
 
 Node.js currently supports two module systems:
 
-***
-
 ### **A. CommonJS (CJS)**
 
 Default in Node.js\
@@ -299,8 +285,6 @@ Uses:
 // math.js
 module.exports = { add };
 ```
-
-***
 
 ### **B. ES Modules (ESM)**
 
@@ -351,8 +335,6 @@ exports.add = () => {};
 exports.subtract = () => {};
 ```
 
-***
-
 ### **ES Module Exports**
 
 #### Named exports
@@ -387,8 +369,6 @@ export { add, subtract };
 const math = require('./math');
 const { add } = require('./math');
 ```
-
-***
 
 ### **ES Modules**
 
