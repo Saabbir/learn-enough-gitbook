@@ -1,0 +1,486 @@
+# Mastering Shopify Theme Architecture
+
+### **Introduction — So You Want to Understand Shopify Theme Architecture**
+
+When you first open a Shopify theme folder, it feels a bit like walking into a library without knowing how books are organized. There are folders everywhere, strange `.json` and `.liquid` files, and unfamiliar naming conventions.
+
+But like any good library, Shopify themes follow a **clear, elegant architecture**.
+
+Once you understand the rules, everything clicks:
+
+* Pages start making sense
+* Sections feel like modular LEGO bricks
+* Templates unlock customization
+* Translations fall into place
+* Config files stop being scary
+
+This article will guide you through that journey — step by step — with a storytelling flow designed to help you remember everything effortlessly.
+
+Let’s start at the beginning: the big picture.
+
+***
+
+## **1. Understanding Shopify Theme Architecture (The Big Picture)**
+
+Shopify themes aren’t just HTML and CSS. They are **dynamic, server-rendered templates** built with Liquid and organized in a structure that makes Shopify’s entire system work.
+
+#### **Why architecture matters**
+
+* It enables merchants to customize pages visually
+* It allows developers to build modular, scalable components
+* It lets Shopify plug into any part of the storefront
+* It enables Online Store 2.0 features like app blocks, JSON templates, and dynamic sections
+
+#### **Why Online Store 2.0 changed everything**
+
+Before OS 2.0:
+
+* Only the homepage supported sections
+* Page structures were rigid
+* Merchants had limited control
+
+After OS 2.0:
+
+* Every page can have dynamic, reorderable sections
+* Templates can be JSON
+* App blocks are supported
+* Themes became modular and extensible
+
+This is why understanding theme architecture is **the most important skill** for any Shopify developer today.
+
+Now that you know the “why,” let’s understand the structure itself.
+
+***
+
+## **2. Shopify Theme Directory Structure (The Map of Your Theme)**
+
+Open any modern Shopify theme and you’ll see the same set of directories:
+
+```
+├── assets
+├── config
+├── layout
+├── locales
+├── sections
+├── snippets
+└── templates
+    └── customers
+```
+
+This structure is **strictly defined** by Shopify.\
+If you add unsupported folders, certain CLI commands (like `shopify theme dev`) won’t work.
+
+Let’s explore these directories one by one, like rooms in a house.
+
+***
+
+### **layout/** — The Blueprint for Every Page
+
+This folder contains the _master layout_ — usually:
+
+* `theme.liquid` (required)
+* `checkout.liquid` (for Shopify Plus)
+
+Every page passes through `theme.liquid`, which defines:
+
+* The `<head>` tag
+* Scripts and styles
+* Header
+* Footer
+* Global Liquid variables
+
+It’s like the “frame” of the entire house.
+
+***
+
+### **templates/** — The Blueprints for Different Page Types
+
+Templates determine **what type of page Shopify should render**.
+
+Examples:
+
+* `product.json`
+* `collection.json`
+* `cart.liquid`
+* `page.contact.json`
+* `customers/login.liquid`
+
+Shopify’s supported template types include:
+
+* product
+* collection
+* article
+* blog
+* page
+* index
+* search
+* cart
+* list-collections
+* password
+* customers/account
+* metaobject
+* …and more
+
+Templates are the entry point:\
+they load **sections**, which render your actual content.
+
+But not all templates are the same.\
+Enter: **Liquid vs JSON templates** (we’ll dive into these in the next section).
+
+***
+
+### **sections/** — The Modular, Customizable Building Blocks
+
+Sections are the stars of Shopify’s modern architecture.
+
+Each section is a self-contained component that can:
+
+* Render HTML
+* Load Liquid data
+* Have settings
+* Include blocks
+* Be used across multiple pages
+
+Sections allow merchants to customize layouts from the theme editor.
+
+Examples of sections:
+
+* Slideshow
+* Featured collection
+* Product information
+* Header
+* Footer
+* Collage
+* Rich text
+
+Sections + JSON templates = merchant-powered drag-and-drop layouts.
+
+***
+
+### **snippets/** — Small, Reusable Pieces of Liquid
+
+Snippets are partials.\
+They help you avoid repeating markup.
+
+Use snippets for things like:
+
+* Product cards
+* Price formatting
+* Icons
+* Badges
+* Reusable loops
+
+They cannot be edited via Theme Editor — they are strictly developer tools.
+
+***
+
+### **assets/** — The Theme’s Static Files
+
+Everything visual or interactive lives here:
+
+* SCSS/CSS
+* JavaScript
+* JSON (for structured data)
+* Images
+* Fonts
+* SVGs
+
+These files can be loaded using Shopify’s asset\_url and asset\_path filters.
+
+***
+
+### **config/** — How Themes Store Their Settings
+
+This folder is often misunderstood by beginners.
+
+It contains two important files:
+
+#### **1. settings\_schema.json**
+
+Defines:
+
+* The structure of theme settings
+* Sections for the “Theme Settings” editor
+* Input types (color picker, text field, image picker, etc.)
+
+#### **2. settings\_data.json**
+
+Stores:
+
+* The actual _values_ configured by the merchant
+
+⚠️ **Important:**\
+You should _not_ manually edit `settings_data.json`.\
+It is generated by Shopify’s Theme Editor.
+
+***
+
+### **locales/** — Translation & Language Support
+
+Files like:
+
+* `en.default.json`
+* `fr.json`
+* `es.json`
+
+These allow developers to:
+
+* Translate text
+* Localize labels
+* Support multilingual stores
+
+Shopify automatically loads the correct locale file based on store language.
+
+***
+
+## **3. Templates — Liquid vs JSON (A Major Shopify Concept)**
+
+Shopify supports two types of templates:
+
+***
+
+### **Liquid Templates**
+
+A Liquid template:
+
+* Contains Liquid + HTML
+* Has no section schema
+* Cannot be rearranged by merchants
+* Is more “developer-controlled”
+
+Example:
+
+```
+product.liquid
+```
+
+Liquid templates are useful for:
+
+* Very custom layouts
+* Templates that must be Liquid (`gift_card`, `robots.txt`)
+* When you want full developer control
+
+***
+
+### **JSON Templates**
+
+JSON templates were introduced with OS 2.0 and changed everything.
+
+A JSON template:
+
+* Is a **data file**, not HTML
+* Defines which sections a page includes
+* Lets merchants add/reorder/remove sections
+* Allows app blocks
+* Has a strict schema
+
+Example:
+
+```
+product.json
+```
+
+A JSON template contains:
+
+* A “sections” object
+* An “order” array
+
+Example structure:
+
+```json
+{
+  "sections": {
+    "main": {
+      "type": "main-product"
+    },
+    "related-products": {
+      "type": "related-products"
+    }
+  },
+  "order": ["main", "related-products"]
+}
+```
+
+#### **JSON Template Limits**
+
+* Max **1000 JSON templates**
+* Max **25 sections per template**
+* Max **50 blocks per section**
+
+#### **Templates that MUST be Liquid**
+
+* `gift_card`
+* `robots.txt`
+
+***
+
+## **4. Sections & Blocks — The Heart of Modern Shopify Themes**
+
+Sections are Shopify’s most powerful feature.
+
+They allow developers to build:
+
+* Modular components
+* Merchant-editable content
+* Flexible layouts
+
+***
+
+### **Anatomy of a Section**
+
+A section has two important parts:
+
+#### **1. Liquid markup**
+
+The HTML/Liquid that renders the UI
+
+```
+<div class="product-title">{{ product.title }}</div>
+```
+
+#### **2. JSON schema**
+
+Defines:
+
+* Section settings
+* Blocks
+* Preset defaults
+* Input types for Theme Editor
+
+Example:
+
+```json
+{
+  "name": "Featured collection",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": []
+    }
+  ],
+  "max_blocks": 50
+}
+```
+
+***
+
+### **Static vs Dynamic Sections**
+
+#### **Static sections**
+
+* Hard-coded into Liquid (e.g., header, footer)
+* Cannot be moved from Theme Editor
+
+#### **Dynamic sections**
+
+* Added via JSON templates
+* Can be moved, removed, reordered
+
+***
+
+### **App Blocks**
+
+Shopify apps can insert blocks _directly_ into themes.
+
+This is only possible because of sections + JSON templates.
+
+***
+
+## **5. Config & Locales — The Theme’s Settings & Languages**
+
+These two folders complete Shopify’s architectural system.
+
+***
+
+### **Theme Settings (config/settings\_schema.json)**
+
+This file defines the structure of the theme settings UI.
+
+Examples of what you can create:
+
+* Color pickers
+* Logo upload
+* Typography controls
+* Layout settings
+* Global toggles
+
+It makes the theme feel “customizable.”
+
+***
+
+### **Theme Data (config/settings\_data.json)**
+
+This file stores the _actual values_ merchants pick:
+
+* Selected logo
+* Colors
+* Font sizes
+* Layout preferences
+
+Shopify writes this file automatically.
+
+***
+
+### **Locales Folder (Translation System)**
+
+Each theme can support multiple languages using JSON locale files.
+
+Example:
+
+```
+locales/
+  en.default.json
+  fr.json
+```
+
+Inside each file:
+
+```json
+{
+  "general": {
+    "password_page": "Enter store using password"
+  }
+}
+```
+
+These are used with:
+
+```
+{{ 'general.password_page' | t }}
+```
+
+This system enables multilingual storefronts without needing separate themes.
+
+***
+
+## **Conclusion — You Now Understand Shopify Theme Architecture**
+
+By now, you’ve learned:
+
+#### ✔️ How the entire theme file structure works
+
+#### ✔️ What each folder is responsible for
+
+#### ✔️ How templates work (Liquid vs JSON)
+
+#### ✔️ Why sections and blocks are so important
+
+#### ✔️ How config and locales power theme settings and translations
+
+
+
+With this knowledge, you can now:
+
+* Read any Shopify theme with confidence
+* Navigate Dawn and understand its structure
+* Build custom sections and templates
+* Customize themes for clients
+* Start building your own theme from scratch

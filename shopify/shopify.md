@@ -20,7 +20,7 @@ Step by step process for getting started with Shopify app development.
 
 Learn the number one skill for Shopify theme development, liquid language!
 
-👉 [Read more](liquid-templating.md)
+👉 [Read more](broken-reference)
 
 ## Shopify App Bridge library
 
