@@ -20,7 +20,7 @@ The latest version of App Bridge is built on top of web components and APIs to p
 
 On the web, your app renders in an iframe and in the [Shopify mobile app](https://www.shopify.com/install) it renders in a WebView.
 
-![App Bridge Example](../.gitbook/assets/app-bridge-example.png)
+![App Bridge Example](../../.gitbook/assets/app-bridge-example.png)
 
 ```
                                                  *Pink boxes arrive via App Bridge Library.*
