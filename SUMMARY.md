@@ -1,8 +1,10 @@
 # Table of contents
 
+* [👋 Welcome](README.md)
+
 ## Shopify
 
-* [Shopify Theme Development](README.md)
+* [Shopify Theme Development](<README (1).md>)
   * [Mastering Shopify Theme Architecture](shopify/shopify-theme-development/mastering-shopify-theme-architecture.md)
   * [Understanding Shopify Sections & Blocks: The Heart of Modern Theme Architecture](shopify/shopify-theme-development/understanding-shopify-sections-and-blocks-the-heart-of-modern-theme-architecture.md)
   * [The Complete Guide to Shopify’s Liquid Templating Language](shopify/shopify-theme-development/the-complete-guide-to-shopifys-liquid-templating-language.md)
