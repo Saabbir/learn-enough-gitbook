@@ -13,7 +13,6 @@
   * [Shopify App Development](shopify/shopify-app-development.md)
   * [Shopify CLI for Theme Developers](shopify/shopify-cli.md)
   * [Shopify Theme Development](shopify/shopify-theme-development.md)
-  * [Shopify](shopify/shopify.md)
   * [Theme App Extension](shopify/theme-app-extension.md)
   * [Mastering Shopify Theme Architecture](shopify/mastering-shopify-theme-architecture.md)
   * [Understanding Shopify Sections & Blocks: The Heart of Modern Theme Architecture](shopify/understanding-shopify-sections-and-blocks-the-heart-of-modern-theme-architecture.md)
@@ -22,3 +21,7 @@
   * [The Complete Guide to Shopify’s Liquid Templating Language](shopify/the-complete-guide-to-shopifys-liquid-templating-language.md)
 * [HTML Email Development](html-email-development/README.md)
   * [HTML Email Development 101](html-email-development/html-email.md)
+
+## Shopify Theme Development
+
+* [Page 1](shopify-theme-development/page-1.md)
