@@ -201,5 +201,3 @@ You're writing the same language, but in two very different worlds.
 * **Node.js APIs = Tools for servers and system access**
 
 Once you understand this, JavaScript stops feeling confusing and starts feeling powerful.
-
-***
