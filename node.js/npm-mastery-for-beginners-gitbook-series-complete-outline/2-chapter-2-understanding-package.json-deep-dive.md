@@ -25,7 +25,7 @@ It describes:
 Understanding `package.json` is one of the most important steps in learning Node.js.\
 This chapter teaches you **exactly how this file works—field by field, in detail.**
 
-***
+
 
 ## **2. What Is `package.json`?**
 
@@ -71,7 +71,7 @@ A real-world one can look like:
 }
 ```
 
-***
+
 
 ## **3. Mandatory Fields**
 
@@ -83,13 +83,11 @@ Only **two fields are truly required** to make a valid `package.json`:
 
 Everything else is optional.
 
-***
+
 
 ## **4. Field-by-Field Deep Explanation**
 
 Below is the **complete** list of commonly used fields, explained clearly and in depth.
-
-***
 
 ### **4.1 `"name"`**
 
@@ -111,8 +109,6 @@ Examples:
 
 If publishing to npm, names like `"react"` or `"vue"` are obviously already taken.
 
-***
-
 ### **4.2 `"version"`**
 
 This follows **Semantic Versioning (SemVer)**:
@@ -129,8 +125,6 @@ Examples:
 
 More details about versioning will be covered in **Chapter 3**.
 
-***
-
 ### **4.3 `"description"`**
 
 A short explanation of your project.
@@ -140,8 +134,6 @@ Used for:
 * npm registry display
 * search indexing
 * clarity for other developers
-
-***
 
 ### **4.4 `"main"` — The Entry Point (CommonJS)**
 
@@ -158,8 +150,6 @@ Example:
 ```
 
 If omitted, Node assumes `index.js` at the project root.
-
-***
 
 ### **4.5 `"type"` — Module System**
 
@@ -185,8 +175,6 @@ import express from "express"
 ```
 
 This field changes **how Node interprets your .js files**.
-
-***
 
 ### **4.6 `"scripts"` — Automation Commands**
 
@@ -220,8 +208,6 @@ npm start
 
 Scripts allow you to build powerful workflows.
 
-***
-
 ### **4.7 `"dependencies"` — Production Libraries**
 
 Packages your project needs when running in production.
@@ -243,8 +229,6 @@ npm install
 
 These get installed.
 
-***
-
 ### **4.8 `"devDependencies"` — Development Tools**
 
 Tools used **only during development**, never in production.
@@ -260,8 +244,6 @@ Example:
 ```
 
 Deployment platforms (Vercel, Netlify) ignore devDependencies unless needed.
-
-***
 
 ### **4.9 `"peerDependencies"` — Required Sibling Packages**
 
@@ -281,8 +263,6 @@ This means:
 
 More about this in Chapter 9.
 
-***
-
 ### **4.10 `"peerDependenciesMeta"` (Advanced)**
 
 Allows marking peer deps as optional:
@@ -294,8 +274,6 @@ Allows marking peer deps as optional:
   }
 }
 ```
-
-***
 
 ### **4.11 `"optionalDependencies"`**
 
@@ -311,8 +289,6 @@ Example:
 }
 ```
 
-***
-
 ### **4.12 `"engines"`**
 
 Specify what versions of Node & npm your project supports:
@@ -325,8 +301,6 @@ Specify what versions of Node & npm your project supports:
 ```
 
 You can enforce this strictly in some environments.
-
-***
 
 ### **4.13 `"bin"` — Creating CLI Tools**
 
@@ -344,13 +318,9 @@ Now users can run:
 mycli
 ```
 
-***
-
 ### **4.14 `"keywords"`**
 
 Helpful for discoverability in the npm registry.
-
-***
 
 ### **4.15 `"license"`**
 
@@ -363,13 +333,9 @@ Common licenses:
 * Apache-2.0
 * GPL
 
-***
-
 ### **4.16 `"author"` & `"contributors"`**
 
 Useful for projects with multiple maintainers.
-
-***
 
 ### **4.17 `"repository"`**
 
@@ -382,8 +348,6 @@ Links your code to GitHub:
 }
 ```
 
-***
-
 ### **4.18 `"bugs"`**
 
 Point users to issue trackers:
@@ -394,13 +358,9 @@ Point users to issue trackers:
 }
 ```
 
-***
-
 ### **4.19 `"homepage"`**
 
 Shows the project website or documentation landing page.
-
-***
 
 ### **4.20 `"files"` — What to Publish to npm**
 
@@ -416,8 +376,6 @@ Controls what files get uploaded when you run `npm publish`.
 
 Excludes everything else by default.
 
-***
-
 ### **4.21 `"private"` — Prevent Accidental Publication**
 
 ```
@@ -430,8 +388,6 @@ Should be used for:
 * private projects
 * monorepos
 * internal tools
-
-***
 
 ### **4.22 `"config"` — Pass Variables to Scripts**
 
@@ -457,8 +413,6 @@ process.env.npm_package_config_port
 
 Not commonly used, but powerful.
 
-***
-
 ### **4.23 `"overrides"` (npm 8+)**
 
 Override specific dependency versions across dependency tree:
@@ -471,14 +425,10 @@ Override specific dependency versions across dependency tree:
 
 Useful when a dependency has a vulnerability.
 
-***
-
 ### **4.24 `"resolutions"` (Yarn only)**
 
 Included for completeness (not used by npm).\
 Similar to overrides.
-
-***
 
 ### **4.25 `"exports"` — Modern Module Resolution**
 
@@ -499,7 +449,7 @@ If `"exports"` is present:
 
 This is now standard in modern Node libraries.
 
-***
+
 
 ## **5. Real Project Example (Explained in Detail)**
 
@@ -551,7 +501,7 @@ This file:
 * Separates dev and production dependencies
 * Uses modern tools (TypeScript + Vite)
 
-***
+
 
 ## **6. Best Practices for `package.json`**
 
@@ -585,7 +535,7 @@ Use meaningful scripts like:
 "dev": "vite"
 ```
 
-***
+
 
 ## **7. Common Beginner Mistakes**
 
@@ -603,7 +553,7 @@ Use meaningful scripts like:
 
 #### ❌ Adding too many scripts instead of using script chaining tools
 
-***
+
 
 ## **8. Summary**
 
