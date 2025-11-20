@@ -24,6 +24,9 @@
 * [CommonJS Modules in Node.js (CJS)](node.js/commonjs-modules-in-node.js-cjs.md)
 * [ES Modules in Node.js (ESM)](node.js/es-modules-in-node.js-esm.md)
 * [CommonJS vs ES Modules](node.js/commonjs-vs-es-modules.md)
+* [📚 NPM Mastery for Beginners — GitBook Series (Complete Outline)](node.js/npm-mastery-for-beginners-gitbook-series-complete-outline/README.md)
+  * [1️⃣ CHAPTER 1 — What is NPM? (Deep Beginner’s Introduction)](node.js/npm-mastery-for-beginners-gitbook-series-complete-outline/1-chapter-1-what-is-npm-deep-beginners-introduction.md)
+  * [2️⃣ CHAPTER 2 — Understanding package.json (Deep Dive)](node.js/npm-mastery-for-beginners-gitbook-series-complete-outline/2-chapter-2-understanding-package.json-deep-dive.md)
 
 ## HTML Email
 
