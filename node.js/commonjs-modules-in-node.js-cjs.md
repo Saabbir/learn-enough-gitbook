@@ -142,8 +142,7 @@ Node looks for:
 * `./file.js`
 * `./file.json`
 * `./file.node`
-* `./file/index.js`\
-
+* `./file/index.js`<br>
 
 ### **Built-in Modules**
 
