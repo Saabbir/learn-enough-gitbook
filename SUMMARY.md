@@ -27,6 +27,7 @@
 * [📚 NPM Mastery for Beginners — GitBook Series (Complete Outline)](node.js/npm-mastery-for-beginners-gitbook-series-complete-outline/README.md)
   * [1️⃣ CHAPTER 1 — What is NPM? (Deep Beginner’s Introduction)](node.js/npm-mastery-for-beginners-gitbook-series-complete-outline/1-chapter-1-what-is-npm-deep-beginners-introduction.md)
   * [2️⃣ CHAPTER 2 — Understanding package.json (Deep Dive)](node.js/npm-mastery-for-beginners-gitbook-series-complete-outline/2-chapter-2-understanding-package.json-deep-dive.md)
+  * [3️⃣ CHAPTER 3 — Semantic Versioning (SemVer) Explained In Depth](node.js/npm-mastery-for-beginners-gitbook-series-complete-outline/3-chapter-3-semantic-versioning-semver-explained-in-depth.md)
 
 ## HTML Email
 
