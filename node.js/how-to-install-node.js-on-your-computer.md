@@ -1,21 +1,21 @@
-# How to Install Node.js on Your Computer (A Complete Beginner’s Guide)
+# How to Install Node.js on Your Computer
 
 When you’re just getting started with JavaScript beyond the browser, one of the first tools you’ll encounter is **Node.js**. It allows you to run JavaScript on your computer — not just inside web pages — and opens the door to building servers, APIs, command-line tools, and much more.
 
 In this guide, we’ll walk through installing Node.js in a beginner-friendly way, explaining every step so you not only _do it_, but also _understand_ what’s happening.
 
-***
 
-### 🧠 What Is Node.js?
+
+## 🧠 What Is Node.js?
 
 At its core, **Node.js** is a runtime environment built on Chrome’s V8 JavaScript engine.\
 In simple terms, it lets you run JavaScript directly from your terminal — outside of a web browser.
 
 When you install Node.js, you also get **npm** (Node Package Manager), which helps you install and manage third-party libraries that make development faster and easier.
 
-***
 
-### 🖥️ Step 1: Installing Node.js (The Easy Way)
+
+## 🖥️ Step 1: Installing Node.js (The Easy Way)
 
 The simplest way to install Node.js is by downloading the official installer:
 
@@ -35,9 +35,9 @@ npm -v
 
 You should see version numbers for both.
 
-***
 
-### 🧩 Step 2: Installing Node.js Using NVM (Recommended for Developers)
+
+## 🧩 Step 2: Installing Node.js Using NVM (Recommended for Developers)
 
 If you plan to work on multiple projects, you’ll quickly discover that **different projects require different Node.js versions**. That’s where **NVM** (Node Version Manager) comes in.
 
@@ -52,9 +52,9 @@ It lets you install, switch, and manage multiple Node.js versions effortlessly.
 
 Follow the installation steps for your OS, and restart your terminal when it’s done.
 
-***
 
-### ⚙️ Step 3: Managing Node.js Versions with NVM
+
+## ⚙️ Step 3: Managing Node.js Versions with NVM
 
 Once NVM is installed, you can use it to install or switch between Node.js versions.
 
@@ -99,9 +99,9 @@ nvm ls-remote
 nvm current
 ```
 
-***
 
-### 📦 Step 4: Using NPM (Node Package Manager)
+
+## 📦 Step 4: Using NPM (Node Package Manager)
 
 Once Node.js is installed, you automatically get **npm**, the tool developers use to install JavaScript libraries (called “packages”).
 
@@ -129,9 +129,9 @@ Sometimes you’ll want to install a tool globally so it’s available everywher
 | Update globally      | `npm update -g <package>`    |
 | List global packages | `npm list -g`                |
 
-***
 
-### 💡 Step 5: Trying Out Node.js (Your First Command)
+
+## 💡 Step 5: Trying Out Node.js (Your First Command)
 
 Once everything’s installed, open your terminal and type:
 
@@ -156,9 +156,9 @@ To exit the REPL, type:
 
 or press **Ctrl + C** twice.
 
-***
 
-### 🚀 Step 6: Running JavaScript Files
+
+## 🚀 Step 6: Running JavaScript Files
 
 Let’s say you have a file named `app.js` with this code:
 
@@ -174,9 +174,9 @@ node app.js
 
 That’s it! You’ve just executed a JavaScript file using Node.js.
 
-***
 
-### 🧭 Summary
+
+## 🧭 Summary
 
 Here’s what you’ve learned:
 
@@ -188,7 +188,7 @@ Here’s what you’ve learned:
 
 You’re now ready to start exploring Node.js and building your first real applications!
 
-***
+
 
 ### 🪄 Bonus Tip
 

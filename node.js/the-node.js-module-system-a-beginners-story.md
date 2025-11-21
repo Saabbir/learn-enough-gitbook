@@ -14,7 +14,7 @@ To answer all that, we must explore the heart of Node.js: **the module system.**
 
 This article tells that story—step-by-step, chronologically, in the way a real learner experiences it.
 
-***
+
 
 ## **1. The Big Idea: Node.js Is Built on Modules**
 
@@ -46,7 +46,7 @@ A module can:
 
 This allows Node.js applications to scale without turning into a giant mess.
 
-***
+
 
 ## **2. Your First Module**
 
@@ -79,7 +79,7 @@ Why do `module`, `exports`, and `require` magically exist?
 
 This is where the real story starts.
 
-***
+
 
 ## **3. The Secret Behind the Scenes: The Module Wrapper**
 
@@ -113,7 +113,7 @@ This wrapper creates:
 
 Each file is an isolated world—the only way to share code is through `module.exports`.
 
-***
+
 
 ## **4. Understanding `module.exports` and `exports`**
 
@@ -164,7 +164,7 @@ This breaks, because now `exports` no longer points to `module.exports`.
 **Use `module.exports` for exporting objects, functions, or classes.**\
 Use `exports.something = ...` only for property-based exports.
 
-***
+
 
 ## **5. How `require()` Works (The Full Story)**
 
@@ -225,7 +225,7 @@ It climbs up the folder tree until it finds one.
 
 If nothing is found → **Module Not Found error**.
 
-***
+
 
 ## **6. Types of Node.js Modules**
 
@@ -267,7 +267,7 @@ require('./math');
 import utils from './utils.js';
 ```
 
-***
+
 
 ## **7. CommonJS vs ES Modules (ESM)**
 
@@ -310,7 +310,7 @@ To enable ESM:
 }
 ```
 
-***
+
 
 ## **8. Exporting in Different Ways**
 
@@ -359,7 +359,7 @@ function subtract() {}
 export { add, subtract };
 ```
 
-***
+
 
 ## **9. Importing in Different Ways**
 
@@ -377,7 +377,7 @@ import add from './math.js';
 import { add, subtract } from './math.js';
 ```
 
-***
+
 
 ## **10. Best Practices for Node.js Modules**
 
@@ -405,7 +405,7 @@ Avoid vague names like `utils.js`.
 
 Never reassign `exports`.
 
-***
+
 
 ## **11. The Mental Model to Remember Forever**
 
@@ -419,7 +419,7 @@ Think of every Node.js file like this:
 
 When you understand this, you can confidently read or write any Node.js codebase.
 
-***
+
 
 ## **12. Final Summary**
 

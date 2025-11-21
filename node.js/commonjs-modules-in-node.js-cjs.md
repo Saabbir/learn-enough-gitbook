@@ -13,7 +13,7 @@ For many years, _every Node.js project used CommonJS by default_, and even today
 
 This article walks you through the full story of CommonJS — how it works, why it works, and how you use it confidently every day.
 
-***
+
 
 ## **1. What Exactly Is CommonJS?**
 
@@ -29,7 +29,7 @@ It introduces:
 
 CommonJS became the foundation of Node.js.
 
-***
+
 
 ## **2. The Module Wrapper (The Secret Behind the Scenes)**
 
@@ -50,7 +50,7 @@ Every CommonJS module (every `.js` file) is secretly wrapped by Node.js:
 
 #### ✔ Each file becomes its own isolated world.
 
-***
+
 
 ## **3. Exporting in CommonJS**
 
@@ -95,7 +95,7 @@ This **does NOT export anything** because `exports` no longer points to `module.
 > **Always use `module.exports` when exporting a complete object or function.**\
 > Use `exports.foo = …` only when adding properties.
 
-***
+
 
 ## **4. Importing in CommonJS (require)**
 
@@ -111,7 +111,7 @@ Or import specific functions:
 const { add } = require('./math');
 ```
 
-***
+
 
 ## **5. How require() Works (Behind the Scenes)**
 
@@ -129,7 +129,7 @@ Node.js checks:
 
 > 📘 After a module loads once, **Node caches it**, so repeated `require()` calls are instant.
 
-***
+
 
 ## **6. Module Resolution Rules**
 
@@ -160,7 +160,7 @@ Stored inside `node_modules`
 const express = require('express');
 ```
 
-***
+
 
 ## **7. Best Practices for CommonJS**
 
@@ -170,7 +170,7 @@ const express = require('express');
 * Use clear file names (`math.js`, `logger.js`)
 * Avoid circular dependencies
 
-***
+
 
 ## **8. When Should You Use CommonJS?**
 
@@ -180,7 +180,7 @@ Use CJS when:
 * Maintaining older codebases
 * Working with npm packages that only support CJS
 
-***
+
 
 ## **Summary**
 

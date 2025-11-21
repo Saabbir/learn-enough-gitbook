@@ -10,9 +10,9 @@ That’s where **Node.js** changed everything.
 
 > Node.js, created in 2009 by Ryan Dahl, is an open-source, cross-platform runtime environment for executing JavaScript code outside a web browser. Primarily used for server-side programming, Node.js allows JavaScript to be used for both client- and server-side applications, utilizing an event-driven architecture that efficiently handles numerous concurrent connections via a single thread. It incorporates the V8 JavaScript engine and is supported by the Node.js Foundation. Node.js is often used for real-time applications.
 
-***
 
-### 🌱 1. Why Node.js Exists
+
+## 🌱 1. Why Node.js Exists
 
 Before 2009, JavaScript was a browser-only language. You could not use it to:
 
@@ -27,9 +27,9 @@ He built a way to run JavaScript **directly on your computer or server**, outsid
 
 That single innovation turned JavaScript into a **full-stack language** — usable everywhere.
 
-***
 
-### ⚙️ 2. What Node.js Actually Is
+
+## ⚙️ 2. What Node.js Actually Is
 
 At its core, **Node.js is a runtime environment** — basically, a program that can read and execute JavaScript code outside the browser.
 
@@ -43,9 +43,9 @@ node app.js
 
 Node.js reads the file, executes your JavaScript, and can even interact with your operating system.
 
-***
 
-### 🧩 3. What Node.js Is Made Of
+
+## 🧩 3. What Node.js Is Made Of
 
 Here’s the cool part: **Node.js itself is built using C++**.
 
@@ -69,9 +69,9 @@ So when you run JavaScript using Node.js, it’s really a collaboration between:
 * **C++ (for system-level capabilities)**
 * **Node.js APIs (for developer-friendly tools)**
 
-***
 
-### ⚡ 4. How Node.js Works Behind the Scenes
+
+## ⚡ 4. How Node.js Works Behind the Scenes
 
 Here’s a simple breakdown of what happens when you run a Node.js program:
 
@@ -87,9 +87,9 @@ Here’s a simple breakdown of what happens when you run a Node.js program:
 
 This combination allows your JavaScript code to read files, create web servers, or talk to databases — all from your computer’s command line.
 
-***
 
-### 🚀 5. What Makes Node.js Special
+
+## 🚀 5. What Makes Node.js Special
 
 Node.js gives JavaScript **superpowers** that browsers never could.
 
@@ -101,7 +101,7 @@ In Node.js, you can:
 
 However, because Node.js runs outside the browser, it **doesn’t have browser-specific objects** like `window` or `document`.
 
-#### ⚙️ Its Secret Ingredient: Non-Blocking I/O
+### ⚙️ Its Secret Ingredient: Non-Blocking I/O
 
 Node.js uses a **single-threaded, event-driven, non-blocking I/O model**.\
 That’s a fancy way of saying it can handle **many tasks at once** without waiting for one task to finish before starting another.
@@ -112,9 +112,9 @@ This makes Node.js incredibly efficient for:
 * APIs that handle lots of requests
 * Streaming data or file operations
 
-***
 
-### 🧭 In Summary
+
+## 🧭 In Summary
 
 Here’s the story in short:
 

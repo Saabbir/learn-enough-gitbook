@@ -14,7 +14,7 @@ Node.js now supports **two module systems**, and beginners often ask:
 
 Let’s answer all of that in the simplest way possible.
 
-***
+
 
 ## **1. The Origin Story**
 
@@ -26,7 +26,7 @@ Created for Node.js before JavaScript had a module system.
 
 Created by ECMAScript as the official JavaScript module standard.
 
-***
+
 
 ## **2. Side-by-Side Comparison**
 
@@ -44,8 +44,6 @@ import fs from 'fs';
 export function add() {}
 ```
 
-***
-
 ### **Loading Model**
 
 | Feature            | CommonJS    | ES Modules   |
@@ -54,8 +52,6 @@ export function add() {}
 | Wrapper Function   | Yes         | No           |
 | Browser Compatible | No          | Yes          |
 | Static Analysis    | No          | Yes          |
-
-***
 
 ### **Exports Behavior**
 
@@ -66,7 +62,7 @@ export function add() {}
 | Mixed export styles | Yes                  | No                      |
 | Reassign allowed    | Yes                  | No (read-only bindings) |
 
-***
+
 
 ## **3. Module Resolution Differences**
 
@@ -78,7 +74,7 @@ Extension optional (`require('./math')`)
 
 Extension required (`import './math.js'`)
 
-***
+
 
 ## **4. Interoperability Rules**
 
@@ -107,7 +103,7 @@ Must use:
 const math = await import('./math.js');
 ```
 
-***
+
 
 ## **5. Performance Considerations**
 
@@ -119,7 +115,7 @@ const math = await import('./math.js');
 
 Tree-shaking = removing unused code.
 
-***
+
 
 ## **6. When to Use What**
 
@@ -136,7 +132,7 @@ Tree-shaking = removing unused code.
 * Using TypeScript/Vite/Next.js
 * Writing future-proof code
 
-***
+
 
 ## **7. Migration Strategy (CJS → ESM)**
 
@@ -146,7 +142,7 @@ Tree-shaking = removing unused code.
 4. Replace `module.exports` with `export default` / `export`
 5. Update tools (Jest, ESLint, etc.)
 
-***
+
 
 ## **Summary**
 

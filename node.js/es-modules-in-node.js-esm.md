@@ -14,7 +14,7 @@ And now ESM is the **modern standard** for JavaScript projects.
 
 Let’s explore ESM from the ground up.
 
-***
+
 
 ## **1. What Are ES Modules?**
 
@@ -32,7 +32,7 @@ And bring powerful new behavior:
 * Browser + server compatibility
 * Better tooling support
 
-***
+
 
 ## **2. How to Enable ES Modules in Node.js**
 
@@ -57,7 +57,7 @@ Node treats all `.mjs` files as ES modules.
 
 Now **all `.js` files become ESM**.
 
-***
+
 
 ## **3. Exporting in ES Modules**
 
@@ -85,7 +85,7 @@ export default function () {}
 
 You can only have **one default export per file**.
 
-***
+
 
 ## **4. Importing in ES Modules**
 
@@ -115,7 +115,7 @@ const math = await import('./math.js');
 
 > 💡 This is the ESM equivalent of `require()`.
 
-***
+
 
 ## **5. ESM Module Resolution Differences**
 
@@ -134,7 +134,7 @@ import './math';    // ❌ error
 import './utils/index.js';
 ```
 
-***
+
 
 ## **6. Interoperability (CJS ↔ ESM)**
 
@@ -160,7 +160,7 @@ const math = await import('./math.js');
 
 Synchronous `require()` **cannot** load ESM modules.
 
-***
+
 
 ## **7. ES Modules Are the Future**
 
@@ -171,7 +171,7 @@ Use ESM when:
 * Writing libraries for both browser + Node
 * Building apps with bundlers (Vite, Webpack, SWC)
 
-***
+
 
 ## **Summary**
 

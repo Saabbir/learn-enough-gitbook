@@ -20,9 +20,9 @@ Isn’t Node.js supposed to run JavaScript?
 
 To answer that, we need to look at a story that many developers don’t learn early enough.
 
-***
 
-### **Chapter 1: The Two Meanings of “JavaScript”**
+
+## **1: The Two Meanings of “JavaScript”**
 
 When people say “JavaScript,” they usually mean _one of two different things_:
 
@@ -56,9 +56,9 @@ These are **not** part of ECMAScript.
 
 They are added by the **environment**, depending on _where_ your JavaScript is running.
 
-***
 
-### **Chapter 2: JavaScript Is a Hosted Language**
+
+## **2: JavaScript Is a Hosted Language**
 
 ECMAScript is like a powerful engine…\
 But it cannot do anything alone.
@@ -86,9 +86,9 @@ This is why:
 
 Both environments _embed the same language_ — but they provide _different tools_ around it.
 
-***
 
-### **Chapter 3: Why `alert()` Works in the Browser but Fails in Node.js**
+
+## **3: Why `alert()` Works in the Browser but Fails in Node.js**
 
 Now the mystery becomes clear:
 
@@ -103,9 +103,9 @@ So when Node sees `alert()`, it simply says:
 
 And this is why your Node.js script fails.
 
-***
 
-### **Chapter 4: Shared APIs and “Rewritten” APIs**
+
+## **4: Shared APIs and “Rewritten” APIs**
 
 Some APIs exist in both browser and Node.js — but for different reasons.
 
@@ -131,9 +131,9 @@ They are provided by the environment.
 
 They behave similarly, but they were built separately for their own environments.
 
-***
 
-### **Chapter 5: Two Worlds, One Language**
+
+## **5: Two Worlds, One Language**
 
 So here’s the big takeaway:
 
@@ -166,9 +166,9 @@ Both can run JavaScript (ECMAScript), but each gives the language different powe
 * `require` / CommonJS (unless using ESM)
 * Access to system files & environment variables
 
-***
 
-### **Chapter 6: Why This Distinction Matters for Developers**
+
+## **6: Why This Distinction Matters for Developers**
 
 When you're switching between frontend and backend, it’s easy to mix things up.
 
@@ -180,9 +180,9 @@ Understanding the separation keeps your sanity intact.
 
 You're writing the same language, but in two very different worlds.
 
-***
 
-### **Final Summary**
+
+## **Final Summary**
 
 | Concept                             | Browser | Node.js |
 | ----------------------------------- | ------- | ------- |
