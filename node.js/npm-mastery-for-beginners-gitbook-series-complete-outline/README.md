@@ -61,3 +61,7 @@ description: A deep, structured, chronological learning journey.
 #### **CHAPTER 14 — Best Practices for Real Projects**
 
 → Version pinning, CI/CD rules, caching strategies, lockfile management, reproducible builds.
+
+#### **CHAPTER 15 —** Complete Appendix of npm Commands, Flags & Usage
+
+→ All npm Commands, Flags, and Explanations
