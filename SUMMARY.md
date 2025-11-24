@@ -40,8 +40,19 @@
   * [📘 CHAPTER 13 — npm vs Yarn vs pnpm (Practical Comparison)](node.js/npm-mastery-series-for-beginners/chapter-13-npm-vs-yarn-vs-pnpm-practical-comparison.md)
   * [📘 CHAPTER 14 — Best Practices for Real Projects](node.js/npm-mastery-series-for-beginners/chapter-14-best-practices-for-real-projects.md)
   * [📘 CHAPTER 15 — Complete Appendix of npm Commands, Flags & Usage](node.js/npm-mastery-series-for-beginners/chapter-15-complete-appendix-of-npm-commands-flags-and-usage.md)
-* [📘 Node.js Built-In Modules — Beginner → Advanced Roadmap](node.js/node.js-built-in-modules-beginner-advanced-roadmap/README.md)
+* [📚 Node.js Built-In Modules — Beginner → Advanced Roadmap](node.js/node.js-built-in-modules-beginner-advanced-roadmap/README.md)
   * [📘 CHAPTER 1 — FS Module](node.js/node.js-built-in-modules-beginner-advanced-roadmap/chapter-1-fs-module.md)
+* [📚 Node.js Internals & Async Programming — Complete Learning Path](node.js/node.js-internals-and-async-programming-complete-learning-path/README.md)
+  * [📘 CHAPTER 1 — Synchronous vs Asynchronous JavaScript](node.js/node.js-internals-and-async-programming-complete-learning-path/chapter-1-synchronous-vs-asynchronous-javascript.md)
+  * [📘 CHAPTER 2 — Microtasks & Macrotasks](node.js/node.js-internals-and-async-programming-complete-learning-path/chapter-2-microtasks-and-macrotasks.md)
+  * [📘 CHAPTER 3 — Intro to the Node.js Event Loop (Beginner-Friendly Model)](node.js/node.js-internals-and-async-programming-complete-learning-path/chapter-3-intro-to-the-node.js-event-loop-beginner-friendly-model.md)
+  * [📘 CHAPTER 4 — Blocking vs Non-Blocking in Node.js](node.js/node.js-internals-and-async-programming-complete-learning-path/chapter-4-blocking-vs-non-blocking-in-node.js.md)
+  * [📘 CHAPTER 5 — The Node.js Thread Pool](node.js/node.js-internals-and-async-programming-complete-learning-path/chapter-5-the-node.js-thread-pool.md)
+  * [📘 CHAPTER 6 — Deep Event Loop Internals (libuv Phases Explained Simply)](node.js/node.js-internals-and-async-programming-complete-learning-path/chapter-6-deep-event-loop-internals-libuv-phases-explained-simply.md)
+  * [📘 CHAPTER 7 — Streams & Backpressure](node.js/node.js-internals-and-async-programming-complete-learning-path/chapter-7-streams-and-backpressure.md)
+  * [📘 CHAPTER 8 — Networking Internals](node.js/node.js-internals-and-async-programming-complete-learning-path/chapter-8-networking-internals.md)
+  * [📘 CHAPTER 9 — Practical Performance Tips](node.js/node.js-internals-and-async-programming-complete-learning-path/chapter-9-practical-performance-tips.md)
+  * [📘 CHAPTER 10 — Worker Threads, Child Processes & Clustering](node.js/node.js-internals-and-async-programming-complete-learning-path/chapter-10-worker-threads-child-processes-and-clustering.md)
 
 ## HTML Email
 

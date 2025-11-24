@@ -2,7 +2,7 @@
 description: A structured curriculum for learning built-in modules in the right order.
 ---
 
-# 📘 Node.js Built-In Modules — Beginner → Advanced Roadmap
+# 📚 Node.js Built-In Modules — Beginner → Advanced Roadmap
 
 ## ⭐ Beginner Modules
 
