@@ -123,7 +123,17 @@ These are **practical real-world modules** used often in backend development, CL
 
 These are for high-performance apps, multithreading, child processes, scaling, or deep Node internals.
 
-#### **14. STREAMS (Advanced)**
+#### **14. BUFFER**
+
+* working with binary data
+* handling raw bytes
+* encoding/decoding
+* memory allocation
+* interacting with streams, crypto, networking
+* zero-copy slicing vs copying
+* Buffer vs TypedArray vs ArrayBuffer
+
+#### **15. STREAMS**
 
 * readable
 * writable
@@ -131,7 +141,7 @@ These are for high-performance apps, multithreading, child processes, scaling, o
 * backpressure
 * building high-performance streaming apps
 
-#### **15. CRYPTO**
+#### **16. CRYPTO**
 
 * hashing
 * random bytes
@@ -139,7 +149,7 @@ These are for high-performance apps, multithreading, child processes, scaling, o
 * HMAC
 * secure password storage
 
-#### **16. CHILD\_PROCESS**
+#### **17. CHILD\_PROCESS**
 
 * exec
 * spawn
@@ -147,24 +157,24 @@ These are for high-performance apps, multithreading, child processes, scaling, o
 * building real CLI tools
 * running shell commands
 
-#### **17. WORKER\_THREADS**
+#### **18. WORKER\_THREADS**
 
 * parallel processing
 * CPU-bound tasks
 * thread pools
 
-#### **18. CLUSTER**
+#### **19. CLUSTER**
 
 * multi-process scaling
 * load balancing
 * multi-core utilization
 
-#### **19. DNS**
+#### **20. DNS**
 
 * DNS lookups
 * network-level operations
 
-#### **20. ASSERT**
+#### **21. ASSERT**
 
 * writing simple tests
 * assertion-based testing tools
