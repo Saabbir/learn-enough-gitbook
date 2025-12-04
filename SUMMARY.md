@@ -14,6 +14,8 @@
 * [Shopify App Development](shopify/shopify-app-development/README.md)
   * [Shopify App Development 101: A Complete Beginner’s Guide to Building Your First Shopify App](shopify/shopify-app-development/shopify-app-development-101-a-complete-beginners-guide-to-building-your-first-shopify-app.md)
   * [Shopify App Bridge 101: What It Is, Why It Matters, and How to Use It](shopify/shopify-app-development/shopify-app-bridge-library.md)
+* [Shopify Academy](shopify/shopify-academy/README.md)
+  * [Introduction to Shopify](shopify/shopify-academy/introduction-to-shopify.md)
 
 ## Node.js
 
