@@ -1,8 +1,13 @@
+---
+description: https://www.shopifyacademy.com/introduction-to-shopify
+---
+
 # Introduction to Shopify
 
 ## 🛒 **What Is Shopify?**
 
-Shopify is an **all-in-one commerce platform** that enables individuals and businesses to create online stores, sell products, manage operations, and scale globally—without needing advanced technical knowledge.\
+Shopify is an **all-in-one commerce platform** that enables individuals and businesses to create online stores, sell products, manage operations, and scale globally—without needing advanced technical knowledge.<br>
+
 Its biggest strength is simplicity: everything from storefront design to payment processing, shipping, and analytics is built into one centralized platform.
 
 **Key points:**
@@ -19,7 +24,8 @@ Shopify’s story began with a problem rather than a business plan.
 In 2004, founders **Tobias Lütke** and **Scott Lake** tried launching an online snowboard shop called **Snowdevil**. At the time, e-commerce tools were outdated, rigid, and frustrating to use.\
 Tobi—a software engineer—decided to build the store platform himself using **Ruby on Rails**.
 
-They quickly realized that the software powering Snowdevil had more potential than the snowboard shop itself.\
+They quickly realized that the software powering Snowdevil had more potential than the snowboard shop itself.<br>
+
 This idea evolved into Shopify.
 
 ## 🧑‍💻 **Founders & Founding Story**
