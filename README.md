@@ -4,7 +4,7 @@ Hi there — I’m really glad you're here!
 
 This GitBook is my personal space for learning, teaching, and sharing everything I pick up throughout my journey as a developer. If you’re curious about Shopify theme development, CRO, JavaScript, or practical web engineering, you’ll feel right at home.
 
-***
+
 
 ## 📚 About This Site
 
@@ -22,7 +22,7 @@ My goal is simple:\
 \
 **To make complex topics easy, fun, and accessible — and to share everything I know with anyone who finds it useful. No copyright. Feel free to copy and share.**
 
-***
+
 
 ## 🙋‍♂️ About Me — Saabbir Hossain
 
@@ -44,7 +44,7 @@ I hold an **Optimizely Experimentation Web Platform Expert** certification.
 
 I love learning, taking notes, and teaching through storytelling. This GitBook is where I share it all so you — and future me — can benefit.
 
-***
+
 
 ## 📞 Contact & Social Links
 
@@ -55,12 +55,12 @@ If you’d like to reach me, collaborate, or explore more of my work, here are t
 * **Email:** thesaabbir@gmail.com
 * **Phone:** +8801789243439
 
-#### **Social Profiles**
+#### **Social profiles**
 
-* **LinkedIn:** [https://www.linkedin.com/in/thesaabbir/](https://www.linkedin.com/in/thesaabbir/)
+* **LinkedIn:** [https://www.linkedin.com/in/thesaabbir](https://www.linkedin.com/in/thesaabbir/)
 * **GitHub:** [https://github.com/saabbir](https://github.com/saabbir)
 
-#### **Explore More**
+#### **Explore more**
 
 * **Portfolio:** [https://saabbir.github.io](https://saabbir.github.io)
 * **Resume:** [https://saabbir-resume.netlify.app](https://saabbir-resume.netlify.app)
@@ -69,7 +69,5 @@ If you’d like to reach me, collaborate, or explore more of my work, here are t
 
 #### **Projects**
 
-* **Expensify:** [**https://expenseer.onrender.com/**](https://expenseer.onrender.com/)
-* **Shopify Tab Extension:** [**https://github.com/Saabbir/shopify-tab-extension**](https://github.com/Saabbir/shopify-tab-extension)
-* **GitHub BD Toppers:** [**https://saabbir.github.io/github-bd-toppers/**](https://saabbir.github.io/github-bd-toppers/)
 * **My Shopify Store:** [https://thesaabbir.myshopify.com](https://thesaabbir.myshopify.com)
+* **Shopify Tab Extension:** [**https://github.com/Saabbir/shopify-tab-extension**](https://github.com/Saabbir/shopify-tab-extension)
