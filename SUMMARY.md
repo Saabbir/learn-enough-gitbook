@@ -16,6 +16,7 @@
   * [Shopify App Bridge 101: What It Is, Why It Matters, and How to Use It](shopify/shopify-app-development/shopify-app-bridge-library.md)
 * [Shopify Academy](shopify/shopify-academy/README.md)
   * [Introduction to Shopify](shopify/shopify-academy/introduction-to-shopify.md)
+  * [How to Develop on Shopify: Dev Stores, Partners, and Tools](shopify/shopify-academy/how-to-develop-on-shopify-dev-stores-partners-and-tools.md)
 
 ## Node.js
 
