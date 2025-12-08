@@ -17,6 +17,7 @@
 * [Shopify Academy](shopify/shopify-academy/README.md)
   * [Introduction to Shopify](shopify/shopify-academy/introduction-to-shopify.md)
   * [How to Develop on Shopify: Dev Stores, Partners, and Tools](shopify/shopify-academy/how-to-develop-on-shopify-dev-stores-partners-and-tools.md)
+  * [Exploring the Shopify Admin: A Beginner’s Guide to the Core of Your Store](shopify/shopify-academy/exploring-the-shopify-admin-a-beginners-guide-to-the-core-of-your-store.md)
 
 ## Node.js
 
