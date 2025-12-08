@@ -70,4 +70,4 @@ If you’d like to reach me, collaborate, or explore more of my work, here are t
 #### **Projects**
 
 * **My Shopify Store:** [https://thesaabbir.myshopify.com](https://thesaabbir.myshopify.com)
-* **Shopify Tab Extension:** [**https://github.com/Saabbir/shopify-tab-extension**](https://github.com/Saabbir/shopify-tab-extension)
+* **Shopify Tab Extension:** [https://github.com/Saabbir/shopify-tab-extension](https://github.com/Saabbir/shopify-tab-extension)
