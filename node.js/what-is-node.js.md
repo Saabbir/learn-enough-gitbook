@@ -3,8 +3,7 @@
 Imagine this — for years, JavaScript could only live **inside your web browser**.\
 It made web pages interactive: showing popups, handling button clicks, validating forms.
 
-But developers wanted more.\
-They wanted to use JavaScript **outside the browser** — to build servers, access files, and create full web applications using the same language on both the front and back end.
+But developers wanted more. They wanted to use JavaScript **outside the browser** — to build servers, access files, and create full web applications using the same language on both the front and back end.
 
 That’s where **Node.js** changed everything.
 
@@ -103,7 +102,8 @@ However, because Node.js runs outside the browser, it **doesn’t have browser-s
 
 ### ⚙️ Its Secret Ingredient: Non-Blocking I/O
 
-Node.js uses a **single-threaded, event-driven, non-blocking I/O model**.\
+Node.js uses a **single-threaded, event-driven, non-blocking I/O model**.
+
 That’s a fancy way of saying it can handle **many tasks at once** without waiting for one task to finish before starting another.
 
 This makes Node.js incredibly efficient for:
