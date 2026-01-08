@@ -8,7 +8,7 @@ description: >-
 
 ## **1. Introduction**
 
-Every modern JavaScript project—whether built with Node.js, React, Next.js, Vite, Electron, or even CLI tools—relies on one essential file:
+Every modern JavaScript project — whether built with Node.js, React, Next.js, Vite, Electron, or even CLI tools relies on one essential file:
 
 #### **`package.json`**
 
@@ -23,7 +23,7 @@ It describes:
 * and much more
 
 Understanding `package.json` is one of the most important steps in learning Node.js.\
-This chapter teaches you **exactly how this file works—field by field, in detail.**
+This chapter teaches you **exactly how this file works — field by field, in detail.**
 
 
 
