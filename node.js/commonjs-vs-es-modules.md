@@ -4,7 +4,7 @@ description: A Clear, Complete, Beginner-Friendly Comparison
 
 # CommonJS vs ES Modules
 
-### **Introduction**
+## **Introduction**
 
 Node.js now supports **two module systems**, and beginners often ask:
 
