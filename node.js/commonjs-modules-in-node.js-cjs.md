@@ -4,7 +4,7 @@ description: The Original Node.js Module System
 
 # CommonJS Modules in Node.js (CJS)
 
-### **Introduction: The Early Days of Node.js**
+## **Introduction: The Early Days of Node.js**
 
 When Node.js was first released in 2009, JavaScript never had a built-in module system.\
 Ryan Dahl had to create one — and that system is **CommonJS (CJS)**.
