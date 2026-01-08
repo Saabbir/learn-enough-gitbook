@@ -4,7 +4,7 @@ description: Modern JavaScript Modules for the Modern Web
 
 # ES Modules in Node.js (ESM)
 
-### **Introduction: The Future Arrives**
+## **Introduction: The Future Arrives**
 
 JavaScript finally got an official module system: **ES Modules (ESM)**.
 
