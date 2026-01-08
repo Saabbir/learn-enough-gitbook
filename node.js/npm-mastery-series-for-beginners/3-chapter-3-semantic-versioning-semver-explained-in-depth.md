@@ -6,7 +6,8 @@ description: A complete guide to how versioning works in Node.js and NPM.
 
 ## 1. Introduction
 
-Every package in the npm ecosystem follows a standard versioning system called **Semantic Versioning**, often shortened to **SemVer**.\
+Every package in the npm ecosystem follows a standard versioning system called **Semantic Versioning**, often shortened to **SemVer**.
+
 Understanding SemVer is essential because:
 
 * It determines which versions of dependencies your project will install.
@@ -14,7 +15,9 @@ Understanding SemVer is essential because:
 * It influences how dependency conflicts are resolved.
 * It affects releases, CI pipelines, and packages you publish.
 
-This chapter teaches SemVer in a simple, clear way—with examples, symbols, real scenarios, and best practices.
+This chapter teaches SemVer in a simple, clear way — with examples, symbols, real scenarios, and best practices.
+
+
 
 ## 2. What is Semantic Versioning?
 
@@ -35,6 +38,8 @@ means:
 * **2** → Major version
 * **5** → Minor version
 * **13** → Patch version
+
+
 
 ## 3. The Meaning of Each Part
 
@@ -98,9 +103,12 @@ Example:
 
 This should never break your project.
 
+
+
 ## 4. Why Semantic Versioning Exists
 
-Before SemVer, version numbers were inconsistent.\
+Before SemVer, version numbers were inconsistent.
+
 Developers didn’t know:
 
 * which versions were safe to update
@@ -109,7 +117,9 @@ Developers didn’t know:
 
 SemVer solves this by making version numbers predictable and meaningful.
 
-Modern ecosystems like npm, yarn, pnpm, Python pip, Rust crates, Ruby gems—all model versioning influenced by SemVer.
+Modern ecosystems like npm, yarn, pnpm, Python pip, Rust crates, Ruby gems — all model versioning influenced by SemVer.
+
+
 
 ## 5. How npm Interprets Semantic Versioning
 
@@ -124,6 +134,8 @@ Example:
 The symbols (`^`, `~`, etc.) determine what future versions npm can install.
 
 Let’s break them down.
+
+
 
 ## 6. Version Range Operators
 
@@ -218,6 +230,8 @@ Allow either version ranges.
 
 Used when building plugins that support multiple major versions.
 
+
+
 ## 7. Special Case: 0.x Versions
 
 SemVer has special behavior for anything below version 1.0.0:
@@ -249,6 +263,8 @@ The caret behaves differently:
 Why?\
 Because version 0.x.x essentially treats **minor** as **major**.
 
+
+
 ## 8. Pre-release Versions
 
 Examples:
@@ -272,6 +288,8 @@ To install:
 ```
 npm install package@beta
 ```
+
+
 
 ## 9. How Lock Files Interact with SemVer
 
@@ -299,6 +317,8 @@ So:
 
 This ensures **reproducible installs**.
 
+
+
 ## 10. How npm Resolves Conflicts
 
 If two packages want different versions:
@@ -318,6 +338,8 @@ node_modules/
 ```
 
 This solves historic “DLL Hell” issues in other languages.
+
+
 
 ## 11. Semantic Versioning in Real Projects
 
@@ -352,6 +374,8 @@ A surprising number of npm packages are stuck at:
 This means unstable APIs.\
 Avoid unless trusted.
 
+
+
 ## 12. Common Mistakes Beginners Make
 
 ❌ Using `"*"` as version\
@@ -361,6 +385,8 @@ Avoid unless trusted.
 ❌ Updating all packages at once\
 ❌ Using `--force` when installing mismatched deps\
 ❌ Letting package.json drift from lockfile
+
+
 
 ## 13. Best Practices for Semantic Versioning
 
@@ -392,6 +418,8 @@ npx npm-check-updates -u
 npm install
 ```
 
+
+
 ## 14. Summary
 
 In this chapter, you learned:
@@ -405,4 +433,4 @@ In this chapter, you learned:
 * How npm resolves dependency conflicts
 * Best practices for versioning in real projects
 
-You now understand how versioning truly works in npm—essential knowledge for building stable applications and safe upgrades.
+You now understand how versioning truly works in npm — essential knowledge for building stable applications and safe upgrades.
