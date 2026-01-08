@@ -2,7 +2,8 @@
 
 ## **1. Introduction**
 
-When you start learning Node.js, the very first tool you'll interact with is **NPM — the Node Package Manager**.\
+When you start learning Node.js, the very first tool you'll interact with is **NPM — the Node Package Manager**.
+
 It is so deeply integrated into JavaScript development that even frontend frameworks like React, Next.js, Vue, and Svelte depend on it.
 
 But what exactly _is_ NPM?\
@@ -211,7 +212,7 @@ Vite? NPM.
 
 #### **2. All build tools depend on NPM**
 
-Webpack, Babel, ESLint, TypeScript—all NPM packages.
+Webpack, Babel, ESLint, TypeScript — all NPM packages.
 
 #### **3. Every backend library relies on NPM**
 
