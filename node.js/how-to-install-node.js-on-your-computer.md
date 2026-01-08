@@ -1,6 +1,6 @@
 # How to Install Node.js on Your Computer
 
-When you’re just getting started with JavaScript beyond the browser, one of the first tools you’ll encounter is **Node.js**. It allows you to run JavaScript on your computer — not just inside web pages — and opens the door to building servers, APIs, command-line tools, and much more.
+When you’re just getting started with JavaScript beyond the browser, one of the first tools you’ll encounter is **Node.js**. It allows you to run JavaScript on your computer — not just inside web pages and opens the door to building servers, APIs, command-line tools, and much more.
 
 In this guide, we’ll walk through installing Node.js in a beginner-friendly way, explaining every step so you not only _do it_, but also _understand_ what’s happening.
 
@@ -43,7 +43,7 @@ If you plan to work on multiple projects, you’ll quickly discover that **diffe
 
 It lets you install, switch, and manage multiple Node.js versions effortlessly.
 
-#### 🔧 Installing NVM
+### 🔧 Installing NVM
 
 * For **macOS/Linux**, visit the official repository:\
   👉 [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
@@ -107,7 +107,7 @@ Once Node.js is installed, you automatically get **npm**, the tool developers us
 
 Here are the most common npm commands you’ll use:
 
-#### 🧰 Basic Commands
+### 🧰 Basic Commands
 
 | Action                  | Command                   |
 | ----------------------- | ------------------------- |
@@ -118,7 +118,7 @@ Here are the most common npm commands you’ll use:
 | List installed packages | `npm list`                |
 | Search for a package    | `npm search <package>`    |
 
-#### 🌍 Global Packages
+### 🌍 Global Packages
 
 Sometimes you’ll want to install a tool globally so it’s available everywhere on your system:
 
@@ -190,7 +190,7 @@ You’re now ready to start exploring Node.js and building your first real appli
 
 
 
-### 🪄 Bonus Tip
+## 🪄 Bonus Tip
 
 Whenever you’re unsure, you can always check your current versions:
 
