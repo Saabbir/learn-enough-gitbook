@@ -25,7 +25,7 @@
 * [What is Node.js?](node.js/what-is-node.js.md)
 * [How to Install Node.js on Your Computer](node.js/how-to-install-node.js-on-your-computer.md)
 * [Node.js vs Browser — Understanding the Two Worlds of JavaScript](node.js/node.js-vs-browser-understanding-the-two-worlds-of-javascript.md)
-* [The Node.js Module System — A Beginner’s Story](node.js/the-node.js-module-system-a-beginners-story.md)
+* [Node.js Module System — The Heart of Node.js](node.js/node.js-module-system-the-heart-of-node.js.md)
 * [CommonJS Modules in Node.js (CJS)](node.js/commonjs-modules-in-node.js-cjs.md)
 * [ES Modules in Node.js (ESM)](node.js/es-modules-in-node.js-esm.md)
 * [CommonJS vs ES Modules](node.js/commonjs-vs-es-modules.md)

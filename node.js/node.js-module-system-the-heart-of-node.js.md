@@ -1,7 +1,8 @@
-# The Node.js Module System — A Beginner’s Story
+# Node.js Module System — The Heart of Node.js
 
-Imagine you just discovered Node.js.\
-You write your first JavaScript file, run it with `node index.js`, and suddenly JavaScript is no longer just living in the browser—it’s now running on your machine, building apps, servers, CLIs, tools, and automation.
+Imagine you just discovered Node.js.
+
+You write your first JavaScript file, run it with `node index.js`, and suddenly JavaScript is no longer just living in the browser — it’s now running on your machine, building apps, servers, CLIs, tools, and automation.
 
 But soon you ask:
 
@@ -12,7 +13,7 @@ But soon you ask:
 
 To answer all that, we must explore the heart of Node.js: **the module system.**
 
-This article tells that story—step-by-step, chronologically, in the way a real learner experiences it.
+This article tells that story — step-by-step, chronologically, in the way a real learner experiences it.
 
 
 
@@ -71,7 +72,7 @@ console.log(add(1, 2));
 ```
 
 You just created a module and imported it into another file.\
-Congratulations—you’ve unlocked a core feature of Node.js.
+Congratulations — you’ve unlocked a core feature of Node.js.
 
 But now…\
 how does this _actually_ work?\
@@ -85,7 +86,7 @@ This is where the real story starts.
 
 Every file you write in Node.js is secretly wrapped by Node.js inside a function.
 
-Yes—literally wrapped.
+Yes — literally wrapped.
 
 Node.js internally converts your file into this:
 
@@ -111,13 +112,13 @@ This wrapper creates:
 * **its own private variables**
 * **its own ability to export things**
 
-Each file is an isolated world—the only way to share code is through `module.exports`.
+Each file is an isolated world — the only way to share code is through `module.exports`.
 
 
 
 ## **4. Understanding `module.exports` and `exports`**
 
-This part confuses **everyone**—even experienced developers.
+This part confuses **everyone** — even experienced developers.
 
 Let’s simplify it.
 
@@ -436,4 +437,4 @@ By now you understand:
 * Best practices for day-to-day development
 
 Mastering the module system is one of the most foundational Node.js skills.\
-Once you understand it deeply, everything else—Express.js, file systems, servers, scripts—becomes much easier.
+Once you understand it deeply, everything else — Express.js, file systems, servers, scripts, becomes much easier.
