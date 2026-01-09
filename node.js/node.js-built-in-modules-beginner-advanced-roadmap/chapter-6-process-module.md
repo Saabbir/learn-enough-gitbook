@@ -6,19 +6,6 @@ description: >-
 
 # 📘 CHAPTER 6 — PROCESS Module
 
-**ChatGPT said:**
-
-Here is **📘 CHAPTER 6 — PROCESS Module**, written in the same style as your earlier chapters:\
-clear, beginner-friendly, deeply detailed, natural storytelling tone, and **no section dividers**.
-
-***
-
-## 📘 Node.js Built-In Modules
-
-## Chapter 6 — PROCESS Module
-
-_Understanding environment variables, arguments, stdout, stderr, exit events, memory usage, nextTick, and how Node.js controls your running program_
-
 ## 1. Introduction
 
 Every Node.js application interacts with the **process** object — even if you’ve never touched it directly.
