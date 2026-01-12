@@ -1,12 +1,10 @@
-# Shopify App Development 101: A Complete Beginner’s Guide to Building Your First Shopify App
+# Shopify App Development 101 (CLI Way)
 
 If you’ve ever wondered how Shopify apps are built — or how developers create things like subscription apps, search apps, cart widgets, upsell apps, or product bundles — you’re in the right place.
 
 Shopify app development might sound intimidating, but once you understand the ecosystem and tooling, it becomes one of the **friendliest environments for modern full-stack development**.
 
 This guide is written for **absolute beginners**, with **no assumptions** about prior experience. We’ll cover:
-
-***
 
 ## **📚 Table of Contents**
 
@@ -22,7 +20,7 @@ This guide is written for **absolute beginners**, with **no assumptions** about 
 10. **What to Learn Next**
 11. **Where to Go from Here**
 
-***
+
 
 ## **1. What Is a Shopify App?**
 
@@ -30,7 +28,21 @@ A Shopify app is a **standalone web application** that connects to a Shopify sto
 
 Apps can:
 
-✔ Add new backend features ✔ Add storefront UI components ✔ Modify checkout (Shopify Plus) ✔ Automate tasks ✔ Provide analytics ✔ Integrate external tools ✔ Create admin UI extensions ✔ Inject new functionality into Shopify’s admin or theme
+✔ Add new backend features&#x20;
+
+✔ Add storefront UI components&#x20;
+
+✔ Modify checkout (Shopify Plus)&#x20;
+
+✔ Automate tasks&#x20;
+
+✔ Provide analytics&#x20;
+
+✔ Integrate external tools&#x20;
+
+✔ Create admin UI extensions&#x20;
+
+✔ Inject new functionality into Shopify’s admin or theme
 
 If you’ve ever installed:
 
@@ -42,7 +54,7 @@ If you’ve ever installed:
 
 …you’ve used a Shopify app.
 
-***
+
 
 ## **2. Why Build Shopify Apps?**
 
@@ -62,7 +74,7 @@ Some apps make **millions** in recurring revenue. Some solve niche problems for 
 
 Either way — the opportunity is huge.
 
-***
+
 
 ## **3. What You Need Before Starting**
 
@@ -90,7 +102,7 @@ VS Code is ideal.
 
 That’s it. No need to learn Liquid yet, unless you’re working with theme extensions.
 
-***
+
 
 ## **4. Understanding Shopify’s App Tech Stack**
 
@@ -128,7 +140,7 @@ Modern Shopify apps use:
 
 You **do not need to master all of these on day one**. You’ll learn them naturally as you build.
 
-***
+
 
 ## **5. How Shopify App Development Works**
 
@@ -144,7 +156,7 @@ Here’s the simple version:
 
 It’s very developer-friendly.
 
-***
+
 
 ## **6. Introducing Shopify CLI for Apps**
 
@@ -162,7 +174,7 @@ It helps you:
 
 Think of it as the “Create React App” of Shopify.
 
-***
+
 
 ## **7. Installing Shopify CLI**
 
@@ -186,7 +198,7 @@ shopify help
 
 You’re ready to begin.
 
-***
+
 
 ## **8. Scaffold Your First Shopify App**
 
@@ -225,7 +237,7 @@ This gives you a complete working Shopify app with:
 * API setup
 * Webhook structure
 
-***
+
 
 ## **9. Run the App in Development**
 
@@ -237,17 +249,23 @@ shopify app dev
 
 The CLI:
 
-✔ Starts your local dev server ✔ Creates a secure tunnel ✔ Opens Shopify Partner dashboard ✔ Installs app in your dev store ✔ Automatically refreshes when you edit code
+✔ Starts your local dev server&#x20;
+
+✔ Creates a secure tunnel&#x20;
+
+✔ Opens Shopify Partner dashboard&#x20;
+
+✔ Installs app in your dev store&#x20;
+
+✔ Automatically refreshes when you edit code
 
 This is where the magic happens. You now have a real Shopify app running in a store — powered by your code.
 
-***
+
 
 ## **10. What Should You Learn Next? (Roadmap)**
 
 Here is the perfect beginner roadmap:
-
-***
 
 ### **Step 1 — Shopify Admin API (REST & GraphQL)**
 
@@ -260,13 +278,9 @@ Learn how to:
 * Read customers
 * Write automation logic
 
-***
-
 ### **Step 2 — Polaris (Shopify’s UI library)**
 
 Build beautiful admin pages.
-
-***
 
 ### **Step 3 — Webhooks**
 
@@ -276,8 +290,6 @@ React to store events like:
 * Product updated
 * Cart updated
 
-***
-
 ### **Step 4 — App Extensions**
 
 Learn how to add UI inside stores:
@@ -286,13 +298,9 @@ Learn how to add UI inside stores:
 * Checkout UI extensions
 * Functions (discounts, validations, etc.)
 
-***
-
 ### **Step 5 — Billing API**
 
 For public apps that charge merchants.
-
-***
 
 ### **Step 6 — Deployment**
 
@@ -306,7 +314,7 @@ Deploy using:
 
 Shopify CLI helps with deployment as well.
 
-***
+
 
 ## **11. Where to Go From Here**
 
@@ -326,7 +334,7 @@ Once you understand the basics, you can:
 
 This is just the beginning.
 
-***
+
 
 ## **Final Thoughts**
 

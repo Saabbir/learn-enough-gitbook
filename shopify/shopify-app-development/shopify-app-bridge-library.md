@@ -16,7 +16,7 @@ With App Bridge, they become **tight, native extensions inside Shopify**.
 
 Let’s break it all down.
 
-***
+
 
 ## **📚 Table of Contents**
 
@@ -31,7 +31,7 @@ Let’s break it all down.
 9. App Bridge React Components & Hooks
 10. Final Thoughts
 
-***
+
 
 ## **1. What Is Shopify App Bridge?**
 
@@ -50,7 +50,7 @@ Inside that frame, App Bridge allows your app to:
 ✔ control navigation\
 ✔ trigger admin UI elements like toasts, modals, and title bars
 
-***
+
 
 ## **2. Why Shopify Apps Need App Bridge**
 
@@ -83,7 +83,7 @@ App Bridge gives direct access to:
 * user metadata
 * API session details
 
-***
+
 
 ## **3. How App Bridge Works (In Plain English)**
 
@@ -108,15 +108,13 @@ App Bridge acts as a **bridge** between:
 * Shopify's **admin UI**
 * the **merchant**
 
-***
+
 
 ## **4. Installing App Bridge**
 
 #### If you used the **Shopify Remix App Template**
 
 App Bridge is already installed and configured — no setup needed.
-
-***
 
 #### If you built your app manually
 
@@ -135,7 +133,7 @@ This script:
 
 Once included, your app gets the global `shopify` object.
 
-***
+
 
 ## **5. The `shopify` Global Variable**
 
@@ -163,7 +161,7 @@ You’ll see all the API namespaces like:
 * `shopify.config`
 * `shopify.user`
 
-***
+
 
 ## **6. Your First App Bridge API Call**
 
@@ -194,13 +192,11 @@ Here’s a working example:
 
 This opens a native product selector directly inside Shopify Admin — no custom UI required.
 
-***
+
 
 ## **7. Useful App Bridge APIs (Most Common Ones)**
 
 App Bridge provides a ton of APIs — here are the most important ones you’ll use daily.
-
-***
 
 ### **✔ 1. Retrieve Config Details**
 
@@ -208,8 +204,6 @@ App Bridge provides a ton of APIs — here are the most important ones you’ll 
 shopify.config.shop;     // shop domain
 shopify.config.apiKey;   // API key used at runtime
 ```
-
-***
 
 ### **✔ 2. Resource Picker**
 
@@ -222,15 +216,11 @@ const selected = await shopify.resourcePicker({
 });
 ```
 
-***
-
 ### **✔ 3. Toast Notifications**
 
 ```js
 shopify.toast.show("Message sent");
 ```
-
-***
 
 ### **✔ 4. Modals**
 
@@ -244,8 +234,6 @@ And in HTML:
 <ui-modal id="my-modal"></ui-modal>
 ```
 
-***
-
 ### **✔ 5. User Data**
 
 Fetch details about the currently logged-in Shopify user:
@@ -254,7 +242,7 @@ Fetch details about the currently logged-in Shopify user:
 const user = await shopify.user();
 ```
 
-***
+
 
 ## **8. App Bridge Web Components**
 
@@ -271,7 +259,7 @@ Common components:
 
 These elements render into Shopify-native UI inside the admin.
 
-***
+
 
 ## **9. App Bridge React Components & Hooks**
 
@@ -304,7 +292,7 @@ These components give you:
 
 Perfect for modern Shopify app development.
 
-***
+
 
 ## **10. Final Thoughts**
 

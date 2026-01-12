@@ -1,6 +1,6 @@
-# How You Should Learn Shopify App Development — Roadmap for Frontend Developers
+# How Frontend Developers Should Actually Learn Shopify App Development (Opinionated)
 
-If you want to be a **real Shopify app developer** (not just someone who pastes boilerplate), then **slowing down first** and learning what’s under the hood is the smartest move.
+If you're a front-end developer and want to be a **real Shopify app developer** (not just someone who pastes boilerplate), then **slowing down first** and learning what’s under the hood is the smartest move.
 
 Below is a **clear, staged learning roadmap** designed specifically for **a front-end developer like you** who wants to master Shopify app development **from first principles**, file by file, line by line.
 
