@@ -6,33 +6,6 @@ Below is a **clear, staged learning roadmap** designed specifically for **a fron
 
 
 
-## How Shopify Apps Actually Work (Big Picture First)
-
-![Image](https://cdn.prod.website-files.com/601411ff11c3efbd2603b7c9/62e3e6b65fb05758f79705da_DS_architecture.png.001-min.png)
-
-![Image](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/apps/oauth-BVV3KNFj.png)
-
-![Image](https://cdn.shopify.com/s/files/1/0533/2089/files/embedded-apps-new-vs-old-loading-flow.jpg?v=1601382242)
-
-![Image](https://miro.medium.com/1*5QkBROnl4ExrOltdfJfteQ.png)
-
-At its core, a Shopify app is:
-
-```
-Browser (Merchant)
-   ↓
-Your Frontend (React / HTML)
-   ↓
-Your Backend (Node / PHP / Ruby)
-   ↓
-Shopify APIs (Admin / Storefront / Webhooks)
-```
-
-**Key reality check:**\
-👉 **Shopify apps are backend-heavy**, even if they look frontend-focused.
-
-
-
 ## Stage 0 – Mental Model You Must Lock In 🔒
 
 Before touching Shopify at all, understand this:
@@ -302,7 +275,3 @@ If done **properly**:
 👉 **2–3 months to solid competence**\
 👉 **6 months to confidence**\
 👉 **1 year to expert**
-
-
-
-You’re approaching this like an engineer, not a tutorial follower — that’s how experts are made 💪
