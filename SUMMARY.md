@@ -71,3 +71,9 @@
 ## HTML Email
 
 * [HTML Email Development 101](html-email/html-email-development-101.md)
+
+## SQL
+
+* [📘 Learn Enough SQL to Become Confident](sql/learn-enough-sql-to-become-confident/README.md)
+  * [Article 1 — You Already Understand Databases (You Just Don’t Know It Yet)](sql/learn-enough-sql-to-become-confident/article-1-you-already-understand-databases-you-just-dont-know-it-yet.md)
+  * [Article 2 — A Very Small Tour of the Database World](sql/learn-enough-sql-to-become-confident/article-2-a-very-small-tour-of-the-database-world.md)
