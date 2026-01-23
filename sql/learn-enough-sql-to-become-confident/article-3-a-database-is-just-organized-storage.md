@@ -1,4 +1,4 @@
-# Article 3 — A Database Is Just Organized Storage
+# 📘 Article 3 — A Database Is Just Organized Storage
 
 ## Let’s simplify everything again
 

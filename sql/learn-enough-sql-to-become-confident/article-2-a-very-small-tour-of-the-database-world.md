@@ -1,4 +1,4 @@
-# Article 2 — A Very Small Tour of the Database World
+# 📘 Article 2 — A Very Small Tour of the Database World
 
 ## Why this article exists
 

@@ -2,7 +2,7 @@
 description: A Gentle, Story-Driven SQL Series for Absolute Beginners
 ---
 
-# 📘 Learn Enough SQL to Become Confident
+# 📚 Learn Enough SQL to Become Confident
 
 > **Scope:** SQL only\
 > **Audience:** Absolute beginners, frontend devs, Shopify app developers\

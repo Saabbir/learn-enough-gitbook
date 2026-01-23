@@ -1,4 +1,4 @@
-# Article 1 — You Already Understand Databases (You Just Don’t Know It Yet)
+# 📘 Article 1 — You Already Understand Databases (You Just Don’t Know It Yet)
 
 ## Take a breath first
 

@@ -74,7 +74,8 @@
 
 ## SQL
 
-* [📘 Learn Enough SQL to Become Confident](sql/learn-enough-sql-to-become-confident/README.md)
-  * [Article 1 — You Already Understand Databases (You Just Don’t Know It Yet)](sql/learn-enough-sql-to-become-confident/article-1-you-already-understand-databases-you-just-dont-know-it-yet.md)
-  * [Article 2 — A Very Small Tour of the Database World](sql/learn-enough-sql-to-become-confident/article-2-a-very-small-tour-of-the-database-world.md)
-  * [Article 3 — A Database Is Just Organized Storage](sql/learn-enough-sql-to-become-confident/article-3-a-database-is-just-organized-storage.md)
+* [📚 Learn Enough SQL to Become Confident](sql/learn-enough-sql-to-become-confident/README.md)
+  * [📘 Article 1 — You Already Understand Databases (You Just Don’t Know It Yet)](sql/learn-enough-sql-to-become-confident/article-1-you-already-understand-databases-you-just-dont-know-it-yet.md)
+  * [📘 Article 2 — A Very Small Tour of the Database World](sql/learn-enough-sql-to-become-confident/article-2-a-very-small-tour-of-the-database-world.md)
+  * [📘 Article 3 — A Database Is Just Organized Storage](sql/learn-enough-sql-to-become-confident/article-3-a-database-is-just-organized-storage.md)
+  * [� Article 4 — Giving Every Row an Identity](sql/learn-enough-sql-to-become-confident/article-4-giving-every-row-an-identity.md)
