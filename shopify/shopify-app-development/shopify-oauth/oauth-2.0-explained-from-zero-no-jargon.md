@@ -157,8 +157,6 @@ Uninstall app → token invalid.
 
 No secrets in the browser.
 
-***
-
 
 
 ## OAuth vs “Login With Google”
