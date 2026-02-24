@@ -1,4 +1,4 @@
-# � Article 4 — Giving Every Row an Identity
+# 📘 Article 4 — Giving Every Row an Identity
 
 ## Why identity matters
 
