@@ -2,7 +2,7 @@
 
 This is where things _merge_ — JavaScript + database = **real backend power**.
 
-### Goal of this article
+## Goal of this article
 
 By the end, you will:
 
@@ -15,7 +15,7 @@ By the end, you will:
 
 
 
-### 📦 Step 1 — Install SQLite Package for Node
+## 📦 Step 1 — Install SQLite Package for Node
 
 We’ll use the official, simple package:
 
@@ -40,7 +40,7 @@ Check `package.json`:
 
 
 
-### 🧱 Step 2 — Project Structure (Clean & Intentional)
+## 🧱 Step 2 — Project Structure (Clean & Intentional)
 
 Let’s organize things properly.
 
@@ -61,7 +61,7 @@ Why this matters:
 
 
 
-### ✍️ Step 3 — Create Database Connection File
+## ✍️ Step 3 — Create Database Connection File
 
 Create:
 
@@ -109,8 +109,6 @@ module.exports = db;
 
 This file runs **once** when imported.
 
-
-
 ### 🧠 Important Insight
 
 > Opening the database does **not** read all data into memory.
@@ -122,7 +120,7 @@ It just:
 
 
 
-### 🔌 Step 4 — Use the Database in `app.js`
+## 🔌 Step 4 — Use the Database in `app.js`
 
 Open `app.js` and import the DB:
 
@@ -151,7 +149,7 @@ That means:\
 
 
 
-### 🧱 Step 5 — Create Table from Node (Important)
+## 🧱 Step 5 — Create Table from Node (Important)
 
 We **must not** rely on manual SQLite setup.
 
@@ -174,8 +172,6 @@ Why this matters:
 * Table auto-creates if missing
 * This is **production thinking**
 
-
-
 ### 🧠 `IF NOT EXISTS` = Safe Startup
 
 * Table exists → nothing happens
@@ -185,7 +181,7 @@ No crashes.
 
 
 
-### ✍️ Step 6 — Insert Data from Node
+## ✍️ Step 6 — Insert Data from Node
 
 Add a route in `app.js`:
 
@@ -215,8 +211,6 @@ app.get('/add-shop', (req, res) => {
 * `this.lastID` → ID of inserted row
 * Async callback → runs when DB finishes
 
-
-
 ### 🌍 Test It
 
 1. Restart server
@@ -236,7 +230,7 @@ Shop saved with ID 1
 
 
 
-### 🔍 Step 7 — Read Data from SQLite
+## 🔍 Step 7 — Read Data from SQLite
 
 Add another route:
 
@@ -274,7 +268,7 @@ This is **real backend data flow**.
 
 
 
-### 🧠 Async Reality (Very Important)
+## 🧠 Async Reality (Very Important)
 
 Database calls are **asynchronous**.
 
@@ -301,7 +295,7 @@ db.all(..., (err, rows) => {
 
 
 
-### 🛒 How This Fits Shopify OAuth (Preview)
+## 🛒 How This Fits Shopify OAuth (Preview)
 
 Soon, this exact logic will store:
 
@@ -329,7 +323,7 @@ That’s the jump from toy → real app.
 
 
 
-### ✅ What You Should Understand Now
+## ✅ What You Should Understand Now
 
 You should now be comfortable with:
 
