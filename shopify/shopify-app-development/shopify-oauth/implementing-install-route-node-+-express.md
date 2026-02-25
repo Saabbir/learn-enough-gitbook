@@ -257,20 +257,6 @@ What should happen:
 
 
 
-## Visual Flow (What Just Happened)
-
-![Image](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/apps/oauth-BVV3KNFj.png)
-
-![Image](https://cdn.shopify.com/s/files/1/0533/2089/files/shopify_oauth_1.png?1440=)
-
-```
-Browser → /install → Shopify authorize page
-```
-
-That’s it. That’s `/install`.
-
-
-
 ## Common Beginner Mistakes (Avoid These)
 
 ❌ Calling Shopify API here\

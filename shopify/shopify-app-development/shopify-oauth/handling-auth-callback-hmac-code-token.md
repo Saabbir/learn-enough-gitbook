@@ -339,17 +339,3 @@ You now have:
 You are no longer “learning Shopify apps”.
 
 👉 You are **building Shopify apps**.
-
-
-
-## ➡️ Next Article — Project Structure & App Architecture (Cleaning Things Up)
-
-Next we’ll:
-
-* Refactor files properly
-* Introduce `routes/` and `services/`
-* Clean `app.js`
-* Make the app scalable
-* Prepare for API calls & webhooks
-
-This is where your app becomes **production-grade**.
