@@ -4,7 +4,7 @@
 
 ## Shopify
 
-* [Shopify Theme Development](<README (1).md>)
+* [Shopify Theme Development](shopify/shopify-theme-development/README.md)
   * [Mastering Shopify Theme Architecture](shopify/shopify-theme-development/mastering-shopify-theme-architecture.md)
   * [Understanding Shopify Sections & Blocks: The Heart of Modern Theme Architecture](shopify/shopify-theme-development/understanding-shopify-sections-and-blocks-the-heart-of-modern-theme-architecture.md)
   * [The Complete Guide to Shopify’s Liquid Templating Language](shopify/shopify-theme-development/the-complete-guide-to-shopifys-liquid-templating-language.md)
@@ -33,6 +33,12 @@
   * [How to Develop on Shopify: Dev Stores, Partners, and Tools](shopify/shopify-academy/how-to-develop-on-shopify-dev-stores-partners-and-tools.md)
   * [Exploring the Shopify Admin: A Beginner’s Guide to the Core of Your Store](shopify/shopify-academy/exploring-the-shopify-admin-a-beginners-guide-to-the-core-of-your-store.md)
   * [Shopify’s Data Model: Core Objects & How Shopify Models Ecommerce](shopify/shopify-academy/shopifys-data-model-core-objects-and-how-shopify-models-ecommerce.md)
+* [Shopify Analytics & Tag Audit Series](shopify/shopify-analytics-and-tag-audit-series/README.md)
+  * [📘 ARTICLE 01 — How Website Tracking Works](shopify/shopify-analytics-and-tag-audit-series/article-01-how-website-tracking-works.md)
+  * [📘 ARTICLE 02 — Introduction to Google Analytics](shopify/shopify-analytics-and-tag-audit-series/article-02-introduction-to-google-analytics.md)
+  * [📘 ARTICLE 03 — GA4 vs Universal Analytics Explained](shopify/shopify-analytics-and-tag-audit-series/article-03-ga4-vs-universal-analytics-explained.md)
+  * [📘 ARTICLE 04 — Understanding Google Tag Manager](shopify/shopify-analytics-and-tag-audit-series/article-04-understanding-google-tag-manager.md)
+  * [📘 ARTICLE 05 — Understanding Google Tag IDs and Script Types](shopify/shopify-analytics-and-tag-audit-series/article-05-understanding-google-tag-ids-and-script-types.md)
 
 ## Node.js
 
@@ -96,3 +102,7 @@
 
 * [SQLite Basics (Commands, .db File, Tables)](sqlite/sqlite-basics-commands-.db-file-tables.md)
 * [Connecting SQLite to Node.js](sqlite/connecting-sqlite-to-node.js.md)
+
+## Group 1
+
+* [Page 1](group-1/page-1.md)
