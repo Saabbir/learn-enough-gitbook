@@ -103,6 +103,16 @@
 * [SQLite Basics (Commands, .db File, Tables)](sqlite/sqlite-basics-commands-.db-file-tables.md)
 * [Connecting SQLite to Node.js](sqlite/connecting-sqlite-to-node.js.md)
 
-## Group 1
+## Webhook
 
-* [Page 1](group-1/page-1.md)
+* [📚 Webhooks Explained](webhook/webhooks-explained/README.md)
+  * [📘 CHAPTER 1 — The Problem Webhooks Solve](webhook/webhooks-explained/chapter-1-the-problem-webhooks-solve.md)
+  * [📘 CHAPTER 2 — What a Webhook Actually Is](webhook/webhooks-explained/chapter-2-what-a-webhook-actually-is.md)
+  * [📘 CHAPTER 3 — Webhooks vs APIs](webhook/webhooks-explained/chapter-3-webhooks-vs-apis.md)
+  * [📘 CHAPTER 4 — How Webhooks Work (Step-by-Step)](webhook/webhooks-explained/chapter-4-how-webhooks-work-step-by-step.md)
+  * [📘 CHAPTER 5 — Anatomy of a Webhook Request](webhook/webhooks-explained/chapter-5-anatomy-of-a-webhook-request.md)
+  * [📘 CHAPTER 6 — Building Your First Webhook Server](webhook/webhooks-explained/chapter-6-building-your-first-webhook-server.md)
+  * [📘 CHAPTER 7 — Testing Webhooks Locally](webhook/webhooks-explained/chapter-7-testing-webhooks-locally.md)
+  * [📘 CHAPTER 8 — Webhook Security (How to Verify Webhooks)](webhook/webhooks-explained/chapter-8-webhook-security-how-to-verify-webhooks.md)
+  * [📘 CHAPTER 9 — Handling Duplicate Webhooks (Idempotency)](webhook/webhooks-explained/chapter-9-handling-duplicate-webhooks-idempotency.md)
+  * [📘 CHAPTER 10 — Webhook Architecture in Production Systems](webhook/webhooks-explained/chapter-10-webhook-architecture-in-production-systems.md)
