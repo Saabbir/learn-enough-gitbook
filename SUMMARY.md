@@ -116,3 +116,8 @@
   * [📘 CHAPTER 8 — Webhook Security (How to Verify Webhooks)](webhook/webhooks-explained/chapter-8-webhook-security-how-to-verify-webhooks.md)
   * [📘 CHAPTER 9 — Handling Duplicate Webhooks (Idempotency)](webhook/webhooks-explained/chapter-9-handling-duplicate-webhooks-idempotency.md)
   * [📘 CHAPTER 10 — Webhook Architecture in Production Systems](webhook/webhooks-explained/chapter-10-webhook-architecture-in-production-systems.md)
+
+## GA
+
+* [📚 Google Analytics (GA4) for Developers](ga/google-analytics-ga4-for-developers/README.md)
+  * [📘 CHAPTER 1 — What Google Analytics Actually Is](ga/google-analytics-ga4-for-developers/chapter-1-what-google-analytics-actually-is.md)
