@@ -621,7 +621,7 @@ Think of this as the **SRE playbook for analytics systems**.
 
 
 
-## Chapter 35 — The Analytics Debugging Mindset
+### Chapter 35 — The Analytics Debugging Mindset
 
 Before debugging, developers must understand:
 
@@ -651,7 +651,7 @@ The goal is **not perfect equality**, but **reasonable consistency**.
 
 
 
-## Chapter 36 — The Analytics Investigation Framework
+### Chapter 36 — The Analytics Investigation Framework
 
 When debugging analytics, always follow this order:
 
@@ -740,7 +740,7 @@ Using **event name filter incorrectly**.
 
 
 
-## Chapter 37 — Debugging Missing Purchases
+### Chapter 37 — Debugging Missing Purchases
 
 This is the **most common ecommerce issue**.
 
@@ -783,7 +783,7 @@ Common reasons:
 
 
 
-## Chapter 38 — Debugging Duplicate Purchases
+### Chapter 38 — Debugging Duplicate Purchases
 
 Another very common problem.
 
@@ -815,7 +815,7 @@ Use **transaction ID deduplication**.
 
 
 
-## Chapter 39 — Debugging A/B Test Data
+### Chapter 39 — Debugging A/B Test Data
 
 Example scenario (similar to your Convert question).
 
@@ -861,7 +861,7 @@ Experiment tool cookies may be blocked.
 
 
 
-## Chapter 40 — Debugging Event Tracking Issues
+### Chapter 40 — Debugging Event Tracking Issues
 
 Checklist developers should use.
 
@@ -876,7 +876,7 @@ Checklist developers should use.
 
 
 
-## Chapter 41 — Understanding Data Discrepancies
+### Chapter 41 — Understanding Data Discrepancies
 
 Developers must learn **expected discrepancy ranges**.
 
@@ -897,7 +897,7 @@ Reasons:
 
 
 
-## Chapter 42 — Analytics Incident Response
+### Chapter 42 — Analytics Incident Response
 
 How teams investigate analytics problems.
 
@@ -929,7 +929,7 @@ Someone may have changed:
 
 
 
-## Chapter 43 — The Analytics Reliability Checklist
+### Chapter 43 — The Analytics Reliability Checklist
 
 Best practices to avoid future problems.
 
@@ -953,7 +953,7 @@ Best practices to avoid future problems.
 
 
 
-## Chapter 44 — Building an Analytics Engineering Mindset
+### Chapter 44 — Building an Analytics Engineering Mindset
 
 The biggest mindset shift:
 
