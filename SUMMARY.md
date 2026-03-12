@@ -121,3 +121,6 @@
 
 * [📚 Google Analytics (GA4) for Developers](ga/google-analytics-ga4-for-developers/README.md)
   * [📘 CHAPTER 1 — What Google Analytics Actually Is](ga/google-analytics-ga4-for-developers/chapter-1-what-google-analytics-actually-is.md)
+  * [📘 CHAPTER 2 — How Analytics Systems Actually Work](ga/google-analytics-ga4-for-developers/chapter-2-how-analytics-systems-actually-work.md)
+  * [📘 CHAPTER 3 — Why Analytics Numbers Never Match](ga/google-analytics-ga4-for-developers/chapter-3-why-analytics-numbers-never-match.md)
+  * [📘 CHAPTER 4 — Understanding the GA Data Model](ga/google-analytics-ga4-for-developers/chapter-4-understanding-the-ga-data-model.md)
