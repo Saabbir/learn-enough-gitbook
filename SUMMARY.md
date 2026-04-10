@@ -124,3 +124,5 @@
   * [📘 CHAPTER 2 — How Analytics Systems Actually Work](ga/google-analytics-ga4-for-developers/chapter-2-how-analytics-systems-actually-work.md)
   * [📘 CHAPTER 3 — Why Analytics Numbers Never Match](ga/google-analytics-ga4-for-developers/chapter-3-why-analytics-numbers-never-match.md)
   * [📘 CHAPTER 4 — Understanding the GA Data Model](ga/google-analytics-ga4-for-developers/chapter-4-understanding-the-ga-data-model.md)
+  * [📘 CHAPTER 5 — Events (The Core of GA4)](ga/google-analytics-ga4-for-developers/chapter-5-events-the-core-of-ga4.md)
+  * [CHAPTER 6 — Event Parameters (Where the Real Data Lives)](ga/google-analytics-ga4-for-developers/chapter-6-event-parameters-where-the-real-data-lives.md)
