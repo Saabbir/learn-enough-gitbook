@@ -97,6 +97,8 @@
   * [📘 Article 2 — A Very Small Tour of the Database World](sql/learn-enough-sql-to-become-confident/article-2-a-very-small-tour-of-the-database-world.md)
   * [📘 Article 3 — A Database Is Just Organized Storage](sql/learn-enough-sql-to-become-confident/article-3-a-database-is-just-organized-storage.md)
   * [📘 Article 4 — Giving Every Row an Identity](sql/learn-enough-sql-to-become-confident/article-4-giving-every-row-an-identity.md)
+  * [📘 Article 5 — Getting Set Up: Installing SQL on macOS](sql/learn-enough-sql-to-become-confident/article-5-getting-set-up-installing-sql-on-macos.md)
+  * [📘 Article 6 — Talking to the Database (Your First SQL)](sql/learn-enough-sql-to-become-confident/article-6-talking-to-the-database-your-first-sql.md)
 
 ## SQLite
 
