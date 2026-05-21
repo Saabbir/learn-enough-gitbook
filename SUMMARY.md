@@ -86,10 +86,6 @@
   * [📘 CHAPTER 14 — Best Practices for Real Projects](node.js/npm-mastery-series-for-beginners/chapter-14-best-practices-for-real-projects.md)
   * [📘 CHAPTER 15 — Complete Appendix of npm Commands, Flags & Usage](node.js/npm-mastery-series-for-beginners/chapter-15-complete-appendix-of-npm-commands-flags-and-usage.md)
 
-## HTML Email
-
-* [HTML Email Development 101](html-email/html-email-development-101.md)
-
 ## SQL
 
 * [📚 Learn Enough SQL to Become Confident](sql/learn-enough-sql-to-become-confident/README.md)
@@ -99,6 +95,11 @@
   * [📘 Article 4 — Giving Every Row an Identity](sql/learn-enough-sql-to-become-confident/article-4-giving-every-row-an-identity.md)
   * [📘 Article 5 — Getting Set Up: Installing SQL on macOS](sql/learn-enough-sql-to-become-confident/article-5-getting-set-up-installing-sql-on-macos.md)
   * [📘 Article 6 — Talking to the Database (Your First SQL)](sql/learn-enough-sql-to-become-confident/article-6-talking-to-the-database-your-first-sql.md)
+  * [📘 Article 7 — Adding New Data](sql/learn-enough-sql-to-become-confident/article-7-adding-new-data.md)
+  * [📘 Article 8 — Changing and Removing Data (Safely)](sql/learn-enough-sql-to-become-confident/article-8-changing-and-removing-data-safely.md)
+  * [📘 Article 9 — Finding the Right Data](sql/learn-enough-sql-to-become-confident/article-9-finding-the-right-data.md)
+  * [📘 Article 10 — When Data Is Connected](sql/learn-enough-sql-to-become-confident/article-10-when-data-is-connected.md)
+  * [📘 Article 11 — Seeing Data Together (JOINs, Finally)](sql/learn-enough-sql-to-become-confident/article-11-seeing-data-together-joins-finally.md)
 
 ## SQLite
 
@@ -128,3 +129,7 @@
   * [📘 CHAPTER 4 — Understanding the GA Data Model](ga/google-analytics-ga4-for-developers/chapter-4-understanding-the-ga-data-model.md)
   * [📘 CHAPTER 5 — Events (The Core of GA4)](ga/google-analytics-ga4-for-developers/chapter-5-events-the-core-of-ga4.md)
   * [CHAPTER 6 — Event Parameters (Where the Real Data Lives)](ga/google-analytics-ga4-for-developers/chapter-6-event-parameters-where-the-real-data-lives.md)
+
+## HTML Email
+
+* [HTML Email Development 101](html-email/html-email-development-101.md)
