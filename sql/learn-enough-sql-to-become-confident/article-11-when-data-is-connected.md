@@ -1,4 +1,4 @@
-# 📘 Article 10 — When Data Is Connected
+# 📘 Article 11 — When Data Is Connected
 
 ## So far, everything has lived in one table
 
@@ -355,4 +355,4 @@ And despite their reputation, they are much simpler than they first appear.
 
 ## Up next
 
-➡ **Article 11 — Seeing Data Together (JOINs, Finally)**
+➡ **Article 12 — Seeing Data Together (JOINs, Finally)**

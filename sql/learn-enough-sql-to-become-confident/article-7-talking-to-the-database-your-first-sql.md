@@ -1,4 +1,4 @@
-# 📘 Article 6 — Talking to the Database (Your First SQL)
+# 📘 Article 7 — Talking to the Database (Your First SQL)
 
 Perfect — now we’re in the **real learning zone**.\
 You’ve got the environment, the mental model, and the calm. Let’s talk to the database properly.
@@ -274,4 +274,4 @@ We’ve already used `INSERT`, but next we’ll slow it down and understand it p
 
 ## Up next
 
-➡ **Article 7 — Adding New Data**
+➡ **Article 8 — Adding New Data**

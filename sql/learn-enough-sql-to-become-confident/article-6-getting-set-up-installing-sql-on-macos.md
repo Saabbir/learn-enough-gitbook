@@ -1,4 +1,4 @@
-# 📘 Article 5 — Getting Set Up: Installing SQL on macOS
+# 📘 Article 6 — Getting Set Up: Installing SQL on macOS
 
 ## Why we’re installing anything _now_
 
@@ -306,4 +306,4 @@ Just clarity.
 
 ## Up next
 
-➡ **Article 6 — Talking to the Database (Your First SQL)**
+➡ **Article 7 — Talking to the Database (Your First SQL)**

@@ -1,4 +1,4 @@
-# 📘 Article 7 — Adding New Data
+# 📘 Article 8 — Adding New Data
 
 ## Data doesn’t appear magically
 
@@ -337,4 +337,4 @@ That’s where things become more serious.
 
 ## Up next
 
-➡ **Article 8 — Changing and Removing Data (Safely)**
+➡ **Article 9 — Changing and Removing Data (Safely)**

@@ -1,4 +1,4 @@
-# 📘 Article 4 — Giving Every Row an Identity
+# 📘 Article 5 — Giving Every Row an Identity
 
 ## Why identity matters
 
@@ -212,4 +212,4 @@ No setup pain.
 
 ## Up next
 
-➡ **Article 5 — Getting Set Up: Installing SQL on macOS**
+➡ **Article 6 — Getting Set Up: Installing SQL on macOS**

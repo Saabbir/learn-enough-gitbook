@@ -1,4 +1,4 @@
-# 📘 Article 9 — Finding the Right Data
+# 📘 Article 10 — Finding the Right Data
 
 ## Real databases are rarely small
 
@@ -390,4 +390,4 @@ To understand this properly, we need relationships.
 
 ## Up next
 
-➡ **Article 10 — When Data Is Connected**
+➡ **Article 11 — When Data Is Connected**

@@ -1,4 +1,4 @@
-# 📘 Article 11 — Seeing Data Together (JOINs, Finally)
+# 📘 Article 12 — Seeing Data Together (JOINs, Finally)
 
 ## JOINs have a scary reputation
 
@@ -368,4 +368,4 @@ To answer those, we need aggregation.
 
 ## Up next
 
-➡ **Article 12 — Asking Bigger Questions**
+➡ **Article 13 — Asking Bigger Questions**

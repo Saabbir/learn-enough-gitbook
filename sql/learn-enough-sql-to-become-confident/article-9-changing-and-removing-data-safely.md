@@ -1,4 +1,4 @@
-# 📘 Article 8 — Changing and Removing Data (Safely)
+# 📘 Article 9 — Changing and Removing Data (Safely)
 
 ## Until now, we’ve only added data
 
@@ -377,4 +377,4 @@ To do that, we need filtering and sorting.
 
 ## Up next
 
-➡ **Article 9 — Finding the Right Data**
+➡ **Article 10 — Finding the Right Data**
