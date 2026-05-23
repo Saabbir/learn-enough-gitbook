@@ -103,6 +103,10 @@
   * [📘 Article 12 — Seeing Data Together (JOINs, Finally)](sql/learn-enough-sql-to-become-confident/article-12-seeing-data-together-joins-finally.md)
   * [📘 Article 13 — Asking Bigger Questions](sql/learn-enough-sql-to-become-confident/article-13-asking-bigger-questions.md)
   * [📘 Article 14 — Common Mistakes Everyone Makes](sql/learn-enough-sql-to-become-confident/article-14-common-mistakes-everyone-makes.md)
+  * [📘 Article 15 — A Small SQL Vocabulary (Glossary)](sql/learn-enough-sql-to-become-confident/article-15-a-small-sql-vocabulary-glossary.md)
+  * [📘 Article 16 — Appendix: Thinking Like a Database](sql/learn-enough-sql-to-become-confident/article-16-appendix-thinking-like-a-database.md)
+  * [📘 Article 17 — Where to Go Next](sql/learn-enough-sql-to-become-confident/article-17-where-to-go-next.md)
+  * [📘 Article 18 — Further Reading & References](sql/learn-enough-sql-to-become-confident/article-18-further-reading-and-references.md)
 
 ## SQLite
 
