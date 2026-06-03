@@ -2,6 +2,10 @@
 
 * [👋 Welcome](README.md)
 
+## HTTP
+
+* [Debugging with HAR Files: A Complete Guide for Web Developers](http/debugging-with-har-files-a-complete-guide-for-web-developers.md)
+
 ## Shopify
 
 * [Shopify Theme Development](shopify/shopify-theme-development/README.md)
@@ -107,6 +111,7 @@
   * [📘 Article 16 — Appendix: Thinking Like a Database](sql/learn-enough-sql-to-become-confident/article-16-appendix-thinking-like-a-database.md)
   * [📘 Article 17 — Where to Go Next](sql/learn-enough-sql-to-become-confident/article-17-where-to-go-next.md)
   * [📘 Article 18 — Further Reading & References](sql/learn-enough-sql-to-become-confident/article-18-further-reading-and-references.md)
+  * [Page 1](sql/learn-enough-sql-to-become-confident/page-1.md)
 
 ## SQLite
 
