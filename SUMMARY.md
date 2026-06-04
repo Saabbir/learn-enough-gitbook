@@ -2,6 +2,10 @@
 
 * [👋 Welcome](README.md)
 
+## AI
+
+* [Stop Talking to Cursor Like Google: A Practical Guide to Writing Better AI Development Prompts](ai/stop-talking-to-cursor-like-google-a-practical-guide-to-writing-better-ai-development-prompts.md)
+
 ## HTTP
 
 * [Debugging with HAR Files: A Complete Guide for Web Developers](http/debugging-with-har-files-a-complete-guide-for-web-developers.md)
