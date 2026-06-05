@@ -1,4 +1,4 @@
-# CHAPTER 6 — Event Parameters (Where the Real Data Lives)
+# 📘 CHAPTER 6 — Event Parameters (Where the Real Data Lives)
 
 ## Why This Chapter Matters
 

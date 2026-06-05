@@ -13,7 +13,7 @@ That’s when you realize:
 This article takes you through that world step-by-step, in a clear storytelling flow.\
 We’ll start from the absolute basics and gradually move deeper into techniques used by real-world email developers.
 
-***
+
 
 ## **1. What Exactly Is HTML Email Development?**
 
@@ -29,7 +29,7 @@ Others behave like Internet Explorer 5.
 
 **This is where the uniqueness begins.**
 
-***
+
 
 ## **2. Why Is HTML Email So Difficult?**
 
@@ -57,7 +57,7 @@ That’s why email developers often say:
 
 > “Building emails feels like building a website inside a time machine.”
 
-***
+
 
 ## **3. The Core Principles of HTML Email Coding**
 
@@ -94,7 +94,7 @@ Tools like **Litmus**, **Email on Acid**, and **CanIEmail.com** become essential
 
 Once you understand these principles, you’re prepared to enter the deeper mechanics of email development.
 
-***
+
 
 ## **4. The Strange Case of Outlook (and Why We Need Conditional Comments)**
 
@@ -153,7 +153,7 @@ They let you:
 To everyone else, nothing changes.\
 To Outlook? It behaves _correctly_.
 
-***
+
 
 ## **6. Safe HTML: What You Can Actually Use**
 
@@ -187,7 +187,7 @@ Here are the universally safe ones:
 
 This tiny set of HTML is surprisingly enough to build beautiful, responsive layouts.
 
-***
+
 
 ## **7. Safe CSS: What Actually Works (Inline Only)**
 
@@ -228,7 +228,7 @@ The safest CSS properties (when inline) include:
 
 When in doubt, check **caniemail.com** — it is the browser-compatibility table of the email world.
 
-***
+
 
 ## **8. Putting It All Together: How Email Developers Actually Work**
 
@@ -261,7 +261,7 @@ Tweak margins, spacing, line-height, fallback styles.
 
 The key is iteration, patience, and deep understanding of client quirks.
 
-***
+
 
 ## **9. The Best Resources to Master HTML Email Development**
 
@@ -286,7 +286,7 @@ To grow as an email developer, these references are essential:
 * CSS-Tricks Email Tag\
   [https://css-tricks.com/tag/html-email/](https://css-tricks.com/tag/html-email/)
 
-***
+
 
 ## **Final Thoughts**
 
