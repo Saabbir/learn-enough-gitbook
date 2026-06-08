@@ -115,7 +115,6 @@
   * [📘 Article 16 — Appendix: Thinking Like a Database](sql/learn-enough-sql/article-16-appendix-thinking-like-a-database.md)
   * [📘 Article 17 — Where to Go Next](sql/learn-enough-sql/article-17-where-to-go-next.md)
   * [📘 Article 18 — Further Reading & References](sql/learn-enough-sql/article-18-further-reading-and-references.md)
-  * [Page 1](sql/learn-enough-sql/page-1.md)
 
 ## SQLite
 
