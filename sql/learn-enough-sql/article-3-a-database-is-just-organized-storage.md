@@ -223,16 +223,24 @@ Everything else builds on it.
 
 
 
-## What’s next
+## What's next
 
-Now that tables feel normal, there’s one missing question:
+So far, we've talked about:
 
-> “How does the database tell rows apart?”
+* databases
+* organized storage
+* rows and columns briefly
 
-In the next article, we’ll answer that gently — without jargon — and explain why you keep seeing `id` everywhere.
+But we haven't slowed down and looked at the most important structure in a relational database:
+
+> the table itself.
+
+Before we talk about IDs, relationships, or SQL, it's worth spending a little time understanding what tables represent and why they're designed the way they are.
+
+That foundation will make everything that follows much easier.
 
 
 
 ## Up next
 
-➡ **Article 4 — Giving Every Row an Identity**
+➡ **Article 4 — Tables: Where Data Lives**
