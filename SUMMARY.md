@@ -19,6 +19,8 @@
   * [Shopify CLI for Theme Developers](shopify/shopify-theme-development/shopify-cli.md)
   * [The Complete Guide to the Shopify Cart AJAX API](shopify/shopify-theme-development/the-complete-guide-to-the-shopify-cart-ajax-api.md)
   * [How to Create a “Coming Soon” or “Under Maintenance” Page in Shopify](shopify/shopify-theme-development/how-to-create-a-coming-soon-or-under-maintenance-page-in-shopify.md)
+  * [📚 Shopify Filtering](shopify/shopify-theme-development/shopify-filtering/README.md)
+    * [Article 1 — What is Shopify Filtering and How Does It Work?](shopify/shopify-theme-development/shopify-filtering/article-1-what-is-shopify-filtering-and-how-does-it-work.md)
 * [Shopify App Development](shopify/shopify-app-development/README.md)
   * [Shopify App Development 101 (CLI Way)](shopify/shopify-app-development/shopify-app-development-101-cli-way.md)
   * [How Frontend Developers Should Actually Learn Shopify App Development (Opinionated)](shopify/shopify-app-development/how-frontend-developers-should-actually-learn-shopify-app-development-opinionated.md)
