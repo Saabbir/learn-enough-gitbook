@@ -5,6 +5,15 @@
 ## AI
 
 * [Stop Talking to Cursor Like Google: A Practical Guide to Writing Better AI Development Prompts](ai/stop-talking-to-cursor-like-google-a-practical-guide-to-writing-better-ai-development-prompts.md)
+* [Agentic Coding with Claude Code](ai/agentic-coding-with-claude-code/README.md)
+  * [Preface](ai/agentic-coding-with-claude-code/preface.md)
+  * [How to Use This Book](ai/agentic-coding-with-claude-code/how-to-use-this-book.md)
+  * [Table of Contents](ai/agentic-coding-with-claude-code/table-of-contents.md)
+  * [Chapter 1: The New Era of Programming](ai/agentic-coding-with-claude-code/chapter-1-the-new-era-of-programming/README.md)
+    * [Part 1 — Foundations of AI and Modern Software Development](ai/agentic-coding-with-claude-code/chapter-1-the-new-era-of-programming/part-1-foundations-of-ai-and-modern-software-development.md)
+    * [Part 2 — From Searching for Answers to Collaborating with AI](ai/agentic-coding-with-claude-code/chapter-1-the-new-era-of-programming/part-2-from-searching-for-answers-to-collaborating-with-ai.md)
+    * [Part 3 — Why AI Changes More Than the Way We Write Code](ai/agentic-coding-with-claude-code/chapter-1-the-new-era-of-programming/part-3-why-ai-changes-more-than-the-way-we-write-code.md)
+    * [Part 4 — Welcome to the Age of Agentic Coding](ai/agentic-coding-with-claude-code/chapter-1-the-new-era-of-programming/part-4-welcome-to-the-age-of-agentic-coding.md)
 
 ## HTTP
 
