@@ -2,6 +2,11 @@
 
 * [👋 Welcome](README.md)
 
+## Server
+
+* [Roadmap](server/roadmap.md)
+* [What Is a Server?](server/what-is-a-server.md)
+
 ## AI
 
 * [Stop Talking to Cursor Like Google: A Practical Guide to Writing Better AI Development Prompts](ai/stop-talking-to-cursor-like-google-a-practical-guide-to-writing-better-ai-development-prompts.md)
