@@ -7,6 +7,11 @@
 * [Roadmap](server/roadmap.md)
 * [What Is a Server?](server/what-is-a-server.md)
 
+## Linux
+
+* [Files, Permissions & Ownership](linux/files-permissions-and-ownership/README.md)
+  * [📘 Article 1: Reading ls -l: Understanding File Permissions from Scratch](linux/files-permissions-and-ownership/article-1-reading-ls-l-understanding-file-permissions-from-scratch.md)
+
 ## AI
 
 * [Stop Talking to Cursor Like Google: A Practical Guide to Writing Better AI Development Prompts](ai/stop-talking-to-cursor-like-google-a-practical-guide-to-writing-better-ai-development-prompts.md)
