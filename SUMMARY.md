@@ -165,6 +165,10 @@
   * [📘 CHAPTER 4 — Understanding the GA Data Model](ga/google-analytics-ga4-for-developers/chapter-4-understanding-the-ga-data-model.md)
   * [📘 CHAPTER 5 — Events (The Core of GA4)](ga/google-analytics-ga4-for-developers/chapter-5-events-the-core-of-ga4.md)
   * [📘 CHAPTER 6 — Event Parameters (Where the Real Data Lives)](ga/google-analytics-ga4-for-developers/chapter-6-event-parameters-where-the-real-data-lives.md)
+* [📚 Debugging GA4 on Shopify: The Complete Series](ga/debugging-ga4-on-shopify-the-complete-series/README.md)
+  * [How GA4 Gets Onto a Shopify Store: gtag, GTM, Apps and Custom Pixels](ga/debugging-ga4-on-shopify-the-complete-series/how-ga4-gets-onto-a-shopify-store-gtag-gtm-apps-and-custom-pixels.md)
+  * [Tools and Chrome Extensions for Debugging GA4 on Shopify](ga/debugging-ga4-on-shopify-the-complete-series/tools-and-chrome-extensions-for-debugging-ga4-on-shopify.md)
+  * [Is GA4 Loaded on Your Shopify Store, and Are Events Firing?](ga/debugging-ga4-on-shopify-the-complete-series/is-ga4-loaded-on-your-shopify-store-and-are-events-firing.md)
 
 ## HTML Email
 
