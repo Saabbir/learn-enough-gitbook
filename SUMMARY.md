@@ -1,6 +1,12 @@
 # Table of contents
 
-* [👋 Welcome](README.md)
+## Git & GitHub
+
+* [GitHub CLI (gh) for day-to-day work](README.md)
+
+***
+
+* [👋 Welcome](<README (1).md>)
 
 ## Server
 
