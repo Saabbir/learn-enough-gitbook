@@ -74,6 +74,7 @@
   * [📘 ARTICLE 03 — GA4 vs Universal Analytics Explained](shopify/shopify-analytics-and-tag-audit-series/article-03-ga4-vs-universal-analytics-explained.md)
   * [📘 ARTICLE 04 — Understanding Google Tag Manager](shopify/shopify-analytics-and-tag-audit-series/article-04-understanding-google-tag-manager.md)
   * [📘 ARTICLE 05 — Understanding Google Tag IDs and Script Types](shopify/shopify-analytics-and-tag-audit-series/article-05-understanding-google-tag-ids-and-script-types.md)
+* [Google Wants Your Shopify Tags in the Google & YouTube App: What That Means for GA4 and GTM](shopify/google-wants-your-shopify-tags-in-the-google-and-youtube-app-what-that-means-for-ga4-and-gtm.md)
 
 ## Node.js
 
