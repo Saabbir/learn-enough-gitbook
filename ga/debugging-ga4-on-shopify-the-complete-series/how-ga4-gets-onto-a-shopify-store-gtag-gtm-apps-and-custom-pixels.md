@@ -1,3 +1,7 @@
+---
+icon: '1'
+---
+
 # How GA4 Gets Onto a Shopify Store: gtag, GTM, Apps and Custom Pixels
 
 {% hint style="info" %}
@@ -5,6 +9,8 @@ _Part 1 of 6 in the Debugging GA4 on Shopify series._
 {% endhint %}
 
 When GA4 "isn't working" on a Shopify store, the first question isn't what broke. It's how GA4 got there in the first place. Shopify stores load GA4 in at least five different ways, often two at once, and each one fails differently and needs different tools to debug. This part shows you how to identify every way GA4 is loaded on a store, including setups that leave no trace in the theme code.
+
+
 
 ## How is GA loaded on this store?
 
@@ -29,7 +35,9 @@ Three facts that explain most "where did this tag come from?" mysteries:
 * **Legacy checkout scripts stop running.** `checkout.liquid` steps were sunset on August 13, 2024 ([Elevar](https://getelevar.com/shopify/how-to-upgrade-from-checkout-liquid-to-checkout-extensibility/)). The Thank you and Order status page upgrade deadline was August 28, 2025 for Shopify Plus and August 26, 2026 for other plans; Additional scripts there no longer run ([Google](https://support.google.com/tagmanager/answer/15642481)).
 * **The Google & YouTube app now sends purchases from Shopify's servers.** Since July 2026, purchase events go straight from Shopify to GA4 through Google's Data Manager API, bypassing the browser ([Two Owls](https://twoowls.io/blogs/shopify-ga4-server-to-server-integration/)). On August 17, 2026 the app added `view_item_list`, `remove_from_cart`, `view_cart` and `add_shipping_info` ([PPC Land](https://ppc.land/shopify-ga4-tracking-gains-4-events-august-17-only-purchase-is-server-side/)). Practical effect: you won't see that purchase in the browser's Network tab.
 
-### How to identify each method
+
+
+## How to identify each method
 
 **1. Direct gtag.js (explicit).** The theme contains a snippet like this:
 
@@ -57,6 +65,8 @@ A custom pixel created by Shopify's automatic conversion of an old Preferences t
 
 **5. Tracking app (implicit).** Look under Themes → Customize → App embeds for a switched-on tracking embed, and under Customer events for its app pixel.
 
+
+
 ## When hits go to your own subdomain (server-side tracking)
 
 Some stores send GA4 hits to a tagging server on their own subdomain instead of `google-analytics.com`. The server then forwards them to GA4. These servers typically answer on GA4's usual paths such as `/g/collect` ([Google](https://developers.google.com/tag-platform/learn/sst-fundamentals/5-sst-setup-analytics?authuser=4)), so the hit looks like a normal GA4 request on a different host. Managed services do this for you. Leaf Signal, for example, is a fully managed server-side conversion tracking service from the agency Leaf ([BusinessCloud](https://businesscloud.co.uk/?p=190008)).
@@ -71,7 +81,9 @@ How to debug this kind of setup:
 * **Don't add another GA4 tag** because you "can't see Google hits". That creates duplicates (Use case 4).
 * **Tool support:** Tag Assistant decoded the custom-domain hit in the example above and named its GA4 destination. Omnibug added support for first-party Google Analytics implementations in 2020 ([Softpedia changelog](https://www.softpedia.com/progChangelog/Omnibug-for-Chrome-Changelog-257741.html)); if a custom-domain hit doesn't appear there, rely on the Network tab.
 
-### One-minute classification test
+
+
+## One-minute classification test
 
 Paste this into the console on any storefront page:
 
@@ -100,7 +112,9 @@ This lists what's on the page but can't tell whether gtag.js was hardcoded or in
 
 **Before you continue:** write down which method sends each GA4 event (page\_view, view\_item, add\_to\_cart, begin\_checkout, purchase). Every later check depends on it.
 
-### Sources
+
+
+## Sources
 
 * [Trackingplan: Google Tag Manager on Shopify](https://www.trackingplan.com/blog/google-tag-manager-shopify)
 * [Lionel Z.: Shopify pixel consent defaults](https://lionelz.com/en/blog/shopify-ga4-meta-capi-sin-app/)

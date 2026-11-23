@@ -1,3 +1,7 @@
+---
+icon: '2'
+---
+
 # Tools and Chrome Extensions for Debugging GA4 on Shopify
 
 {% hint style="info" %}
@@ -7,6 +11,8 @@ _Part 2 of 6 in the Debugging GA4 on Shopify series._
 Once you know how GA4 is loaded, you need the right tools to watch it work. Shopify makes this harder than on most sites, because a lot of tracking now runs inside a sandbox that many extensions can't see into. This part compares the browser tools and Chrome extensions worth having, including Omnibug, and what each one can and can't show you on a Shopify store.
 
 > **New to this series?** GA4 on Shopify can run in two places: on the page itself (theme code) or inside Shopify's pixel sandbox (custom pixels and app pixels). It is also either _explicit_ (code your team wrote and can edit) or _implicit_ (managed by Shopify, Google or an app). Part 1 shows how to tell which setup you have.
+
+
 
 ## The tools at a glance
 
@@ -27,14 +33,18 @@ The Network tab is the single source of truth for browser tracking: if no `colle
 
 Note on Tag Assistant: Google is retiring the separate **Tag Assistant Companion** extension and has moved its features into the main Tag Assistant extension ([Chrome Web Store](https://chromewebstore.google.com/detail/tag-assistant-companion/jmekfmbnaedfebfnmakmokmlfpblbfdm?hl=en-GB)). Install Tag Assistant, not the Companion.
 
-#### Which tool answers which question
+
+
+## Which tool answers which question
 
 * Did a hit leave the browser? → **Network tab** or **Omnibug**
 * Did Shopify deliver the event to my pixel? → **Shopify Pixel Helper**
 * Is my GTM container or Google tag set up right? → **Tag Assistant** (GTM Preview)
 * Did GA4 actually receive it? → **DebugView** or **Realtime**
 
-#### Using Omnibug on a Shopify store
+
+
+## Using Omnibug on a Shopify store
 
 1. Install Omnibug, open your storefront, then open DevTools (F12) and choose the **Omnibug** tab. It lives in DevTools, not in a toolbar popup.
 2. In Omnibug's settings, keep only the **Google Analytics 4** provider (and **Google Tag Manager** if you use it) so other pixels don't clutter the list.
@@ -44,7 +54,9 @@ Note on Tag Assistant: Google is retiring the separate **Tag Assistant Companion
 
 **Example:** on a product page Omnibug shows two GA4 rows: `page_view` and `view_item` for `G-AB12CD34EF`, with `currency=USD`, `value=29` and one item. Tracking for that page is working. If it shows a third row, `page_view` again for the same ID, you have duplicates (Use case 4).
 
-### Sources
+
+
+## Sources
 
 * [Shopify Help Center: Testing custom pixels](https://help.shopify.com/en/manual/promoting-marketing/pixels/custom-pixels/testing)
 * [tagassistant.google.com (tagassistant.google.com)](https://tagassistant.google.com)

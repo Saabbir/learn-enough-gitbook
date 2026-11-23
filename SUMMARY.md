@@ -175,6 +175,9 @@
   * [How GA4 Gets Onto a Shopify Store: gtag, GTM, Apps and Custom Pixels](ga/debugging-ga4-on-shopify-the-complete-series/how-ga4-gets-onto-a-shopify-store-gtag-gtm-apps-and-custom-pixels.md)
   * [Tools and Chrome Extensions for Debugging GA4 on Shopify](ga/debugging-ga4-on-shopify-the-complete-series/tools-and-chrome-extensions-for-debugging-ga4-on-shopify.md)
   * [Is GA4 Loaded on Your Shopify Store, and Are Events Firing?](ga/debugging-ga4-on-shopify-the-complete-series/is-ga4-loaded-on-your-shopify-store-and-are-events-firing.md)
+  * [Google Tag Manager on Shopify, and Why DebugView Stays Empty](ga/debugging-ga4-on-shopify-the-complete-series/google-tag-manager-on-shopify-and-why-debugview-stays-empty.md)
+  * [Fixing Missing Checkout and Ecommerce Data in GA4 on Shopify](ga/debugging-ga4-on-shopify-the-complete-series/fixing-missing-checkout-and-ecommerce-data-in-ga4-on-shopify.md)
+  * [Fixing Duplicate, Misattributed and Mismatched GA4 Data on Shopify](ga/debugging-ga4-on-shopify-the-complete-series/fixing-duplicate-misattributed-and-mismatched-ga4-data-on-shopify.md)
 
 ## HTML Email
 

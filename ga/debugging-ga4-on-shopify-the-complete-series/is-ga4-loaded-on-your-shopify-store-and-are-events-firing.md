@@ -1,3 +1,7 @@
+---
+icon: '3'
+---
+
 # Is GA4 Loaded on Your Shopify Store, and Are Events Firing?
 
 {% hint style="info" %}
@@ -8,7 +12,9 @@ This part answers the two questions every GA4 debugging session starts with: is 
 
 > **New to this series?** GA4 on Shopify can run in two places: on the page itself (theme code) or inside Shopify's pixel sandbox (custom pixels and app pixels). It is also either _explicit_ (code your team wrote and can edit) or _implicit_ (managed by Shopify, Google or an app). Part 1 shows how to tell which setup you have.
 
-### Use case 1: Is GA loaded properly on the site?
+
+
+## Use case 1: Is GA loaded properly on the site?
 
 GA is loaded properly when a `collect` request with _your_ Measurement ID leaves the browser on every page and your visit shows up in GA4 Realtime. Seeing the script tag alone proves nothing. Run these six checks in order.
 
@@ -84,7 +90,9 @@ Open GA4 → Reports → Realtime. Within about a minute you should see 1 user f
 
 **Example B: Google & YouTube app, "there's no GA code in the theme".** The client searched the theme and found nothing. But Google & YouTube → Settings shows the GA4 property connected, Pixel Helper lists the Google & YouTube pixel, and Network shows `collect` hits with the right `tid`. GA is loaded properly, just implicitly. A test order's `purchase` doesn't appear in Network, which is expected: it's sent from Shopify's servers, so confirm it in GA4 Realtime.
 
-### Checking that GA events fire (page\_view and custom events)
+
+
+## Checking that GA events fire (page\_view and custom events)
 
 An event is firing when, at the moment of the action, a `collect` hit with `en=<event name>` leaves the browser and GA4 shows that event in DebugView or Realtime. Check three layers in order: did Shopify register the action, did a hit go out, did GA4 receive it.
 
@@ -179,7 +187,9 @@ analytics.subscribe('newsletter_signup', (event) => {
 
 In all three cases you should see one hit with `en=newsletter_signup` and `ep.form_location=footer`. The event shows in DebugView right away. To use `form_location` in standard reports, register it under GA4 → Admin → Custom definitions.
 
-### Sources
+
+
+## Sources
 
 * [Shopify Help Center: Testing custom pixels](https://help.shopify.com/en/manual/promoting-marketing/pixels/custom-pixels/testing)
 * [Thyngster: GA4 hit parameters](https://hl.thyngster.com/?p=2889)
